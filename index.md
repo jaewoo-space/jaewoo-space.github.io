@@ -13,3 +13,5 @@ Other than academia, I enjoy meeting new people, engaging in group activities, v
 I’m always eager to learn new things and expand my horizons.
 
 Thank you for visiting my website, and I look forward to connecting with you :)
+
+[test](./sources/CV_JaewooKim (2024-06-03).pdf)
