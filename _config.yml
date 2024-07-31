@@ -13,7 +13,7 @@ plugins:
 sidebar:
   - name: Curriculum Vitae
     icon: <i class="fas fa-file-alt"></i>
-    link: /sources/CV_JaewooKim (2024-07-24).pdf
+    link: /sources/CV_JaewooKim.pdf
   - name: GitHub
     icon: <i class="fa-brands fa-github"></i>
     link: https://github.com/jaewoo-space
