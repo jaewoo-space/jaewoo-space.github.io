@@ -14,8 +14,15 @@ sidebar:
   - name: Curriculum Vitae
     icon: <i class="fas fa-file-alt"></i>
     link: /sources/CV_JaewooKim.pdf
+  - name: Google Scholar
+    icon: <i class="fa-brands fa-google-scholar"></i>
+    link: https://scholar.google.com/citations?hl=ko&user=d4s06NsAAAAJ&view_op=list_works&sortby=pubdate
+  - name: ResearchGate
+    icon: <i class="fa-brands fa-researchgate"></i>
+    link: https://www.researchgate.net/profile/Jaewoo-Kim-19/research
   - name: GitHub
     icon: <i class="fa-brands fa-github"></i>
     link: https://github.com/jaewoo-space
+  
 
 github: [metadata]
