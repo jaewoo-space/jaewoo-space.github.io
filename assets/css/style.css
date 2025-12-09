@@ -530,3 +530,35 @@ u {
     margin-left: auto;
     margin-right: auto;
 }
+
+/* --- New Icon Styling (Research Page) --- */
+
+/* 제목 텍스트 (링크가 아니므로 굵게 표시) */
+.rel-pub-title-text {
+    font-weight: 500;
+    color: #000;
+}
+
+/* 링크 아이콘 스타일 */
+.rel-pub-link-icon {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 5px;
+    
+    /* 기본 색상은 진한 검정 (다른 아이콘과 통일) */
+    color: #222; 
+    
+    vertical-align: middle;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.rel-pub-link-icon:hover {
+    /* 호버 시 MIT 레드 */
+    color: var(--mit-red);
+}
+
+.rel-pub-link-icon svg {
+    width: 13px; /* 크기 조정 */
+    height: 13px;
+}
