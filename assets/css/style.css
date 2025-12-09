@@ -541,7 +541,7 @@ u {
     align-items: center;
     margin-left: 5px;
     
-    color: #222; 
+    color: var(--mit-red); 
     
     vertical-align: middle;
     text-decoration: none;
@@ -549,7 +549,7 @@ u {
 }
 
 .rel-pub-link-icon:hover {
-    color: var(--mit-red);
+    color: var(--mit-red-dark);
 }
 
 .rel-pub-link-icon svg {
