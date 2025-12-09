@@ -1,0 +1,101 @@
+# ==========================================
+# Journal Articles
+# ==========================================
+- title: "System Architecting for GEO Communication Satellite Considering On-Orbit Refueling"
+  authors: "<b>Kim, J.</b> and <u>Ahn, J.</u>"
+  venue: "AIAA Journal of Spacecraft and Rockets"
+  year: 2025
+  type: "journal"
+  note: "Published online"
+  link: "https://doi.org/10.2514/1.A36403"
+
+- title: "Mathematical Programming-Based Design Structure Matrix Clustering for Optimal Modular Architecture Design"
+  authors: "<b>Kim, J.</b>, Choi, E., <u>Ahn, J.</u>, Suh, E. S., Kim, J.-H., and Lim, D. G."
+  venue: "ASME Journal of Mechanical Design, Vol. 147, No. 10"
+  year: 2025
+  type: "journal"
+  link: "https://doi.org/10.1115/1.4068100"
+
+- title: "Replenishment Strategy for Satellite Constellation with Dual Supply Modes"
+  authors: "<b>Kim, J.</b>, Ahn, J., and <u>Sung, T.</u>"
+  venue: "AIAA Journal of Spacecraft and Rockets, Vol. 62, No. 5"
+  year: 2025
+  type: "journal"
+  link: "https://doi.org/10.2514/1.A36281"
+
+- title: "Simultaneous Optimization of Launch Vehicle Stage and Trajectory Considering Flight-Requirement Constraints"
+  authors: "Ko, J., <b>Kim, J.</b>, Choi, J., and <u>Ahn, J.</u>"
+  venue: "International Journal of Aeronautical and Space Sciences, Vol. 25"
+  year: 2024
+  type: "journal"
+  link: "https://doi.org/10.1007/s42405-024-00737-1"
+
+# ==========================================
+# Preprints & Work in Progress
+# ==========================================
+- title: "Joint Replenishment Strategy for Multiple Satellite Constellations with Shared Launch Opportunities"
+  authors: "<b>Kim, J.</b>, Sung, T., Hwang, W., and <u>Ahn, J.</u>"
+  venue: "arXiv Preprint"
+  year: 2025
+  type: "preprint"
+  link: "https://doi.org/10.48550/arXiv.2503.23666"
+
+- title: "On-Orbit Servicing-Integrated Maintenance Strategy for Satellite Constellation"
+  authors: "<b>Kim, J.</b>, Sung, T., Hwang, W., and <u>Ahn, J.</u>"
+  venue: "In preparation"
+  year: 2025 # 정렬을 위해 임의 지정
+  type: "preprint"
+
+- title: "Optimal Clustering of Design Structure Matrix for Modular Architecture Design Considering Product Assembly"
+  authors: "<b>Kim, J.</b>, Choi, E., Suh, E. S., Kim, J.-H., and <u>Ahn, J.</u>"
+  venue: "In preparation"
+  year: 2025
+  type: "preprint"
+
+- title: "Families of Optimal Two-Impulse Rendezvous Transfer Between Elliptic Orbits"
+  authors: "Park, B., Howell, K. C., <u><b>Kim, J.</b></u>, and Ahn, J."
+  venue: "In preparation"
+  year: 2025
+  type: "preprint"
+
+- title: "Optimal Design Structure Matrix Clustering with Constraint Selection for Modular Architecture Design"
+  authors: "Choi, E., <b>Kim, J.</b>, <u>Ahn, J.</u>, and Kim, J.-H."
+  venue: "In preparation"
+  year: 2025
+  type: "preprint"
+
+- title: "Analysis of Risk Scenarios for Korean Space Assets Using Korean 3D-Cell Engineering Software"
+  authors: "<b>Kim, J.</b>, Yu, J., Choi, E. J., Kam, H., Jo, J., and <u>Ahn, J.</u>"
+  venue: "In preparation"
+  year: 2025
+  type: "preprint"
+
+# ==========================================
+# Conference Proceedings
+# ==========================================
+- title: "Integration of On-Orbit Servicing into Constellation Maintenance with Spare Inventory Management"
+  authors: "<b>Kim, J.</b>, Sung, T., Hwang, W., and Ahn, J."
+  venue: "2026 AIAA SciTech Forum, Orlando, Florida, US"
+  year: 2026
+  type: "conference"
+  note: "To appear"
+
+- title: "Low Earth Orbit Space Debris Remediation Program for Maximizing Stakeholders' Utility"
+  authors: "Song, M., <b>Kim, J.</b>, Nam, Y., and Ahn, J."
+  venue: "2025 APISAT, Seoul, Korea"
+  year: 2025
+  type: "conference"
+
+- title: "Joint Replenishment Strategy for Multiple Satellite Constellations"
+  authors: "<b>Kim, J.</b>, Sung, T., and Ahn, J."
+  venue: "2025 AIAA SciTech Forum, Orlando, Florida, US"
+  year: 2025
+  type: "conference"
+  link: "https://doi.org/10.2514/6.2025-1757"
+
+- title: "Development of Korea Orbital Debris Evolutionary and Engineering Model"
+  authors: "<b>Kim, J.</b>, Lee, J., Kim, H., Choi, E. J., Choi, J., Yu, J., Jo, J., and Ahn, J."
+  venue: "75th International Astronautical Congress (IAC), Milan, Italy"
+  year: 2024
+  type: "conference"
+  link: "https://doi.org/10.52202/078360-0161"

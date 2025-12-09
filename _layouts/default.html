@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,400&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <header class="masthead">
+            <h3 class="masthead-title">
+                <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
+            </h3>
+            <nav class="nav-links">
+                <a href="{{ '/' | relative_url }}">Home</a>
+                <a href="{{ '/publications' | relative_url }}">Publications</a>
+            </nav>
+        </header>
+
+        <main class="content">
+            {{ content }}
+        </main>
+
+        <footer class="footer">
+            <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}. All rights reserved.</p>
+        </footer>
+    </div>
+
+</body>
+</html>

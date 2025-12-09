@@ -1,0 +1,17 @@
+title: "Jaewoo Kim"
+email: jw.kim@kaist.ac.kr
+description: Jaewoo Kim
+baseurl: ""
+url: "https://jaewoo-space.github.io" # 본인의 github pages 주소
+
+# 연구자용 소셜 링크 (나중에 footer 등에 활용)
+author:
+  name: Jaewoo Kim
+  github: jaewoo-space
+  scholar: d4s06NsAAAAJ
+  linkedin: jaewoo-kim-783361232
+
+# 빌드 제외 설정
+exclude:
+  - Gemfile
+  - Gemfile.lock
