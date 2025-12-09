@@ -1,0 +1,31 @@
+- title: "Exploration of Novel System Architectures"
+  image: "/assets/img/research_geo_architecting.png"
+  caption: "Past and future of GEO communication satellite driven by on-orbit servicing."
+  description: "Emerging technologies, such as advanced propulsion systems (electric/nuclear) and on-orbit servicing (OOS), are expanding the design space of spacecraft beyond traditional limits. This research investigates the architectural implications of these innovations, exploring how they enable novel system configurations with superior performance. We aim to identify architectural solutions that effectively leverage these technologies to maximize stakeholder value, while also analyzing the broader transformative impacts these advancements will drive across the space industry."
+  related_papers:
+    - "System Architecting for GEO Communication Satellite Considering On-Orbit Refueling"
+
+- title: "Maintenance Strategy for Satellite Constellation"
+  image: "/assets/img/research_con_maintenance.png"
+  description: "The rise of satellite mega-constellations demands a fundamental shift in operations management: from ensuring the longevity of single assets to guaranteeing the availability of the entire system through continuous replenishment. Throughout this research, we explore the critical supply chain dynamics required to support this transition, examining the complex trade-offs between transportation, inventory, and facility management. Understanding these coupled interactions is essential for achieving cost-effective and sustainable long-term space operations."
+  caption: "Overview of various maintenance strategies for satellite mega-constellation."
+  related_papers:
+    - "Replenishment Strategy for Satellite Constellation with Dual Supply Modes"
+    - "On-Orbit Servicing-Integrated Maintenance Strategy for Satellite Constellation"
+    - "Joint Replenishment Strategy for Multiple Satellite Constellations"
+
+- title: "Modular Architecture Design of Complex Systems"
+  image: "/assets/img/research_dsm_clustering.png"
+  caption: "An example modular architecture design expressed by a design structure matrix (DSM) with various constraints"
+  description: "Modular architecture design serves as a fundamental strategy to manage the complexity of engineering systems by decomposing them into independent, manageable units. While traditional approaches prioritize minimizing inter-module interactions for development efficiency, this research expands the optimization scope to the entire system lifecycle. We focus on integrating diverse downstream considerations---such as procurement and manufacturing---into the architectural decision-making process to derive modular designs that maximize total system value."
+  related_papers:
+    - "Mathematical Programming-Based Design Structure Matrix Clustering for Optimal Modular Architecture Design"
+    - "Optimal Design Structure Matrix Clustering with Constraint Selection for Modular Architecture Design"
+    - "Optimal Clustering of Design Structure Matrix for Modular Architecture Design Considering Product Assembly"
+
+- title: "Conceptual Design of Launch Vehicle"
+  image: "/assets/img/research_lv_design.png"
+  caption: "Overview of the conceptual design framework for launch vehicles."
+  description: "Launch vehicle conceptual design requires a multidisciplinary optimization approach, particularly addressing the strong coupling between stage sizing and trajectory design. While optimal staging minimizes lift-off mass by allocating structural and propellant distributions, trajectory optimization maximizes payload delivery by managing ascent velocity losses. This research focuses on the simultaneous optimization of these interconnected elements to determine the most efficient launch vehicle configuration and flight path."
+  related_papers:
+    - "Simultaneous Optimization of Launch Vehicle Stage and Trajectory Considering Flight-Requirement Constraints"
