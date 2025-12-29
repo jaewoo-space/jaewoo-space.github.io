@@ -42,9 +42,11 @@
 
 - title: "On-Orbit Servicing-Integrated Maintenance Strategy for Satellite Constellation"
   authors: "<b>Kim, J.</b>, Sung, T., Hwang, W., and <u>Ahn, J.</u>"
-  venue: "In preparation"
-  year: 2025 # 정렬을 위해 임의 지정
+  venue: "arXiv Preprint"
+  year: 2025
   type: "preprint"
+  link: "https://doi.org/10.48550/arXiv.2512.18985"
+
 
 - title: "Optimal Clustering of Design Structure Matrix for Modular Architecture Design Considering Product Assembly"
   authors: "<b>Kim, J.</b>, Choi, E., Suh, E. S., Kim, J.-H., and <u>Ahn, J.</u>"
