@@ -33,13 +33,6 @@
 # ==========================================
 # Preprints & Work in Progress
 # ==========================================
-- title: "Joint Replenishment Strategy for Multiple Satellite Constellations with Shared Launch Opportunities"
-  authors: "<b>Kim, J.</b>, Sung, T., Hwang, W., and <u>Ahn, J.</u>"
-  venue: "arXiv Preprint"
-  year: 2025
-  type: "preprint"
-  link: "https://doi.org/10.48550/arXiv.2503.23666"
-
 - title: "On-Orbit Servicing-Integrated Maintenance Strategy for Satellite Constellation"
   authors: "<b>Kim, J.</b>, Sung, T., Hwang, W., and <u>Ahn, J.</u>"
   venue: "arXiv Preprint"
@@ -47,32 +40,38 @@
   type: "preprint"
   link: "https://doi.org/10.48550/arXiv.2512.18985"
 
+- title: "Joint Replenishment Strategy for Multiple Satellite Constellations with Shared Launch Opportunities"
+  authors: "<b>Kim, J.</b>, Sung, T., Hwang, W., and <u>Ahn, J.</u>"
+  venue: "arXiv Preprint"
+  year: 2025
+  type: "preprint"
+  link: "https://doi.org/10.48550/arXiv.2503.23666"
 
-- title: "Optimal Clustering of Design Structure Matrix for Modular Architecture Design Considering Product Assembly"
+- title: "Optimal Clustering of Design Structure Matrix for Modular Architecture Design Considering Assembly Costs"
   authors: "<b>Kim, J.</b>, Choi, E., Suh, E. S., Kim, J.-H., and <u>Ahn, J.</u>"
   venue: "In preparation"
   year: 2025
   type: "preprint"
 
-- title: "Families of Optimal Two-Impulse Rendezvous Transfer Between Elliptic Orbits"
+- title: "Families of Optimal Two-Impulse Rendezvous Transfers Between Elliptic Orbits"
   authors: "Park, B., Howell, K. C., <u><b>Kim, J.</b></u>, and Ahn, J."
   venue: "In preparation"
   year: 2025
   type: "preprint"
 
 - title: "Optimal Design Structure Matrix Clustering with Constraint Selection for Modular Architecture Design"
-  authors: "Choi, E., <b>Kim, J.</b>, <u>Ahn, J.</u>, and Kim, J.-H."
+  authors: "Choi, E., <b>Kim, J.</b>, Kim, J.-H., Suh, E. S., and <u>Ahn, J.</u>"
   venue: "In preparation"
   year: 2025
   type: "preprint"
 
-- title: "Analysis of Risk Scenarios for Korean Space Assets Using Korean 3D-Cell Engineering Software"
-  authors: "<b>Kim, J.</b>, Yu, J., Choi, E. J., Kam, H., Jo, J., and <u>Ahn, J.</u>"
+- title: "Development of Korean 3D-Cell Engineering Software and Its Applications to Collision Risk Analysis"
+  authors: "<b>Kim, J.</b>, Lee, J., Yu, J., Choi, E. J., Kam, H., Jo, J., and <u>Ahn, J.</u>"
   venue: "In preparation"
   year: 2025
   type: "preprint"
 
-- title: "Multi-Domain Matrix-Based Organization Analysis and HR Decision-Making for Startup"
+- title: "Multi-Domain Matrix-Based Organization Analysis and HR Decision-Making for Small Firm"
   authors: "Lee, D., Ahn, J., and <u><b>Kim, J.</b></u>"
   venue: "In preparation"
   year: 2025
@@ -86,7 +85,7 @@
   venue: "2026 AIAA SciTech Forum, Orlando, Florida, US"
   year: 2026
   type: "conference"
-  note: "To appear"
+  link: "https://doi.org/10.2514/6.2026-2631"
 
 - title: "Low Earth Orbit Space Debris Remediation Program for Maximizing Stakeholders' Utility"
   authors: "Song, M., <b>Kim, J.</b>, Nam, Y., and Ahn, J."
