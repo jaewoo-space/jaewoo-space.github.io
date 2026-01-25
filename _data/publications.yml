@@ -35,45 +35,45 @@
 # ==========================================
 - title: "On-Orbit Servicing-Integrated Maintenance Strategy for Satellite Constellation"
   authors: "<b>Kim, J.</b>, Sung, T., Hwang, W., and <u>Ahn, J.</u>"
-  venue: "arXiv Preprint"
+  venue: "under review at AIAA Journal of Spacecraft and Rockets"
   year: 2025
   type: "preprint"
   link: "https://doi.org/10.48550/arXiv.2512.18985"
 
+- title: "Optimal Design Structure Matrix Clustering with Constraint Selections for Conflict Resolution"
+  authors: "Choi, E., <b>Kim, J.</b>, Kim, J.-H., Suh, E. S., and <u>Ahn, J.</u>"
+  venue: "submitted to ASME Journal of Mechanical Design"
+  year: 2025
+  type: "preprint"
+
 - title: "Joint Replenishment Strategy for Multiple Satellite Constellations with Shared Launch Opportunities"
   authors: "<b>Kim, J.</b>, Sung, T., Hwang, W., and <u>Ahn, J.</u>"
-  venue: "arXiv Preprint"
+  venue: "in preparation"
   year: 2025
   type: "preprint"
   link: "https://doi.org/10.48550/arXiv.2503.23666"
 
 - title: "Optimal Clustering of Design Structure Matrix for Modular Architecture Design Considering Assembly Costs"
   authors: "<b>Kim, J.</b>, Choi, E., Suh, E. S., Kim, J.-H., and <u>Ahn, J.</u>"
-  venue: "In preparation"
+  venue: "in preparation"
   year: 2025
   type: "preprint"
 
 - title: "Families of Optimal Two-Impulse Rendezvous Transfers Between Elliptic Orbits"
   authors: "Park, B., Howell, K. C., <u><b>Kim, J.</b></u>, and Ahn, J."
-  venue: "In preparation"
-  year: 2025
-  type: "preprint"
-
-- title: "Optimal Design Structure Matrix Clustering with Constraint Selections for Conflict Resolution"
-  authors: "Choi, E., <b>Kim, J.</b>, Kim, J.-H., Suh, E. S., and <u>Ahn, J.</u>"
-  venue: "In preparation"
+  venue: "in preparation"
   year: 2025
   type: "preprint"
 
 - title: "Development of Korean 3D-Cell Engineering Software and Its Applications to Collision Risk Analysis"
   authors: "<b>Kim, J.</b>, Lee, J., Yu, J., Choi, E. J., Kam, H., Jo, J., and <u>Ahn, J.</u>"
-  venue: "In preparation"
+  venue: "in preparation"
   year: 2025
   type: "preprint"
 
 - title: "Multi-Domain Matrix-Based Organization Analysis and HR Decision-Making for Small Firm"
   authors: "Lee, D., Ahn, J., and <u><b>Kim, J.</b></u>"
-  venue: "In preparation"
+  venue: "in preparation"
   year: 2025
   type: "preprint"
 
