@@ -20,8 +20,8 @@
   description: "Modular architecture design serves as a fundamental strategy to manage the complexity of engineering systems by decomposing them into independent, manageable units. While traditional approaches prioritize minimizing inter-module interactions for development efficiency, this research expands the optimization scope to the entire system lifecycle. We focus on integrating diverse downstream considerations---such as procurement and manufacturing---into the architectural decision-making process to derive modular designs that maximize total system value."
   related_papers:
     - "Mathematical Programming-Based Design Structure Matrix Clustering for Optimal Modular Architecture Design"
-    - "Optimal Design Structure Matrix Clustering with Constraint Selection for Modular Architecture Design"
-    - "Optimal Clustering of Design Structure Matrix for Modular Architecture Design Considering Product Assembly"
+    - "Optimal Design Structure Matrix Clustering with Constraint Selections for Conflict Resolution"
+    - "Optimal Clustering of Design Structure Matrix for Modular Architecture Design with Make-Buy Decision"
 
 - title: "Conceptual Design of Launch Vehicle"
   image: "/assets/img/research_lv_design.png"
