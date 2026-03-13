@@ -17,9 +17,7 @@
     </div>
     
     <div class="pub-venue">
-        {{ pub.venue }}{% unless pub.type == 'preprint' %}
-            {% if pub.year %}, {{ pub.year }}{% endif %}
-        {% endunless %}.
+        {% include publication_meta.html pub=pub %}.
         
         {% if pub.note %}
             <span class="pub-note">({{ pub.note }})</span>

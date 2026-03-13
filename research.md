@@ -65,7 +65,7 @@ title: Research
                                 </span>
                                 
                                 <span class="rel-pub-meta">
-                                    - {{ matched_pub.venue }}{% if matched_pub.year %}, {{ matched_pub.year }}{% endif %}
+                                    - {% include publication_meta.html pub=matched_pub %}
                                 </span>
 
                                 {% if matched_pub.link or matched_pub.pdf %}
