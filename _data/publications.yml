@@ -41,16 +41,22 @@
 
 - title: "Optimal Design Structure Matrix Clustering with Constraint Selections for Conflict Resolution"
   authors: "Choi, E., <b>Kim, J.</b>, Kim, J.-H., Suh, E. S., and <u>Ahn, J.</u>"
-  venue: "submitted to ASME Journal of Mechanical Design"
+  venue: "under review at ASME Journal of Mechanical Design"
   year: 2026
   type: "preprint"
 
 - title: "Families of Two-Impulse Optimal Rendezvous Transfers Between Elliptic Orbits"
   authors: "Park, B., Howell, K. C., <u><b>Kim, J.</b></u>, and Ahn, J."
-  venue: "submitted to The Journal of the Astronautical Sciences"
+  venue: "under review at The Journal of the Astronautical Sciences"
   year: 2026
   type: "preprint"
   link: "https://arxiv.org/abs/2603.11538"
+
+- title: "Korean Space Collision Risk Analysis Software Based on 3D-Cell Model"
+  authors: "<b>Kim, J.</b>, Song, M., Lee, J., Yu, J., Choi, E. J., Kam, H., Jo, J., and <u>Ahn, J.</u>"
+  venue: "under review at International Journal of Aeronautical and Space Sciences"
+  year: 2026
+  type: "preprint"
 
 - title: "Joint Replenishment Strategy for Multiple Satellite Constellations with Shared Launch Opportunities"
   authors: "<b>Kim, J.</b>, Sung, T., Hwang, W., and <u>Ahn, J.</u>"
@@ -61,12 +67,6 @@
 
 - title: "Optimal Clustering of Design Structure Matrix for Modular Architecture Design with Make-Buy Decision"
   authors: "<b>Kim, J.</b>, Choi, E., Suh, E. S., Kim, J.-H., and <u>Ahn, J.</u>"
-  venue: "in preparation"
-  year: 2026
-  type: "preprint"
-
-- title: "Development of Korean 3D-Cell Engineering Software and Its Applications to Collision Risk Analysis"
-  authors: "<b>Kim, J.</b>, Lee, J., Yu, J., Choi, E. J., Kam, H., Jo, J., and <u>Ahn, J.</u>"
   venue: "in preparation"
   year: 2026
   type: "preprint"
