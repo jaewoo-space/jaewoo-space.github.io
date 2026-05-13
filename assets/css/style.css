@@ -394,7 +394,8 @@ u {
     border-radius: 4px;
 }
 
-.research-img-center img {
+.research-img-center img,
+.research-img-center video {
     max-width: 600px;
     width: 100%;
     height: auto;

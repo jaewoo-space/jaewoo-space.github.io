@@ -1,23 +1,30 @@
 # ==========================================
 # Journal Articles
 # ==========================================
+- title: "On-Orbit Servicing-Integrated Maintenance Strategy for Satellite Constellation"
+  authors: "<b>Kim, J.</b>, Sung, T., Hwang, W., and <u>Ahn, J.</u>"
+  venue: "accepted by Journal of Spacecraft and Rockets"
+  year: 2026
+  type: "journal"
+  link: "https://doi.org/10.48550/arXiv.2512.18985"
+
 - title: "System Architecting for GEO Communication Satellite Considering On-Orbit Refueling"
   authors: "<b>Kim, J.</b> and <u>Ahn, J.</u>"
-  venue: "AIAA Journal of Spacecraft and Rockets, Vol. 63, No. 1"
+  venue: "Journal of Spacecraft and Rockets, Vol. 63, No. 1"
   year: 2026
   type: "journal"
   link: "https://doi.org/10.2514/1.A36403"
 
 - title: "Mathematical Programming-Based Design Structure Matrix Clustering for Optimal Modular Architecture Design"
   authors: "<b>Kim, J.</b>, Choi, E., <u>Ahn, J.</u>, Suh, E. S., Kim, J.-H., and Lim, D. G."
-  venue: "ASME Journal of Mechanical Design, Vol. 147, No. 10"
+  venue: "Journal of Mechanical Design, Vol. 147, No. 10"
   year: 2025
   type: "journal"
   link: "https://doi.org/10.1115/1.4068100"
 
 - title: "Replenishment Strategy for Satellite Constellation with Dual Supply Modes"
   authors: "<b>Kim, J.</b>, Ahn, J., and <u>Sung, T.</u>"
-  venue: "AIAA Journal of Spacecraft and Rockets, Vol. 62, No. 5"
+  venue: "Journal of Spacecraft and Rockets, Vol. 62, No. 5"
   year: 2025
   type: "journal"
   link: "https://doi.org/10.2514/1.A36281"
@@ -32,13 +39,6 @@
 # ==========================================
 # Preprints & Work in Progress
 # ==========================================
-- title: "On-Orbit Servicing-Integrated Maintenance Strategy for Satellite Constellation"
-  authors: "<b>Kim, J.</b>, Sung, T., Hwang, W., and <u>Ahn, J.</u>"
-  venue: "under review at AIAA Journal of Spacecraft and Rockets"
-  year: 2026
-  type: "preprint"
-  link: "https://doi.org/10.48550/arXiv.2512.18985"
-
 - title: "Optimal Design Structure Matrix Clustering with Constraint Selections for Conflict Resolution"
   authors: "Choi, E., <b>Kim, J.</b>, Kim, J.-H., Suh, E. S., and <u>Ahn, J.</u>"
   venue: "under review at ASME Journal of Mechanical Design"
@@ -71,7 +71,7 @@
   year: 2026
   type: "preprint"
 
-- title: "Multi-Domain Matrix-Based Organization Analysis and HR Decision-Making for Small Firm"
+- title: "Multi-Domain Matrix Framework for Human Resource Decision Support in Startups"
   authors: "Lee, D., Ahn, J., and <u><b>Kim, J.</b></u>"
   venue: "in preparation"
   year: 2026

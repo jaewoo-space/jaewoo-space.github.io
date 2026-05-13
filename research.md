@@ -25,7 +25,14 @@ title: Research
 
             <div class="research-img-center">
                 {% if project.image %}
+                    {% assign media_ext = project.image | split: "." | last | downcase %}
+                    {% if media_ext == "mp4" %}
+                    <video autoplay muted loop playsinline controls aria-label="{{ project.title }}">
+                        <source src="{{ project.image | relative_url }}" type="video/mp4">
+                    </video>
+                    {% else %}
                     <img src="{{ project.image | relative_url }}" alt="{{ project.title }}">
+                    {% endif %}
                 {% endif %}
 
                 {% if project.caption %}
