@@ -8,10 +8,10 @@ title: Home
 <div class="profile-section">
   
   <div class="profile-text">
-    <p style="margin-top: 0;"> I’m a Ph.D. candidate at the <a href="https://www.kaist.ac.kr/en/" target="_blank">Korea Advanced Institute of Science and Technology (KAIST)</a> in the Department of Aerospace Engineering and a member of the <a href="https://sai.kaist.ac.kr/" target="_blank">Strategic Aerospace Initiative</a>, advised by Professor <a href="https://scholar.google.com/citations?user=2zD6dH4AAAAJ&hl=ko" target="_blank">Jaemyung Ahn</a>.
+    <p style="margin-top: 0;"> I'm a Ph.D. candidate at the <a href="https://www.kaist.ac.kr/en/" target="_blank">Korea Advanced Institute of Science and Technology (KAIST)</a> in the Department of Aerospace Engineering and a member of the <a href="https://sai.kaist.ac.kr/" target="_blank">Strategic Aerospace Initiative</a>, advised by Professor <a href="https://scholar.google.com/citations?user=2zD6dH4AAAAJ&hl=ko" target="_blank">Jaemyung Ahn</a>.
     </p>
     <p>
-      My academic interest is exploring innovative ways to make space utilization more beneficial and sustainable. I specifically address critical issues affecting the value of space systems throughout their lifecycle, focusing on systematic decision-making techniques to identify better solutions.
+      My academic interest is exploring innovative ways to make space utilization more beneficial and sustainable. I specifically address critical issues affecting the value of space systems throughout their lifecycle, focusing on systematic decision-making techniques to identify better solutions. Beyond my primary research, I also enjoy studying mathematics, physics, optimization, and other fields out of intellectual curiosity and a desire to broaden my perspective.
     </p>
     <p>
       Other than academia, I enjoy meeting new people, engaging in group activities, visiting art museums, and watching documentaries about various topics.

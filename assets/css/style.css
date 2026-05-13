@@ -403,6 +403,10 @@ u {
     box-shadow: 0 4px 10px rgba(0,0,0,0.05);
 }
 
+.research-img-center video {
+    max-width: 480px;
+}
+
 .research-content-body {
     padding: 0 5px;
 }
