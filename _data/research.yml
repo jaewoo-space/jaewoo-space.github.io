@@ -1,41 +1,37 @@
-- title: "Maintenance Strategy for Satellite Constellation"
+- title: "Supply Chain Management for Maintenance Strategy of Satellite Constellation"
   image: "/assets/img/research_con_maintenance.png"
   caption: "Overview of various maintenance strategies for satellite mega-constellation."
-  description: "The rise of satellite mega-constellations demands a fundamental shift in operations management: from ensuring the longevity of single assets to guaranteeing the availability of the entire system through continuous replenishment. Throughout this research, we explore the critical supply chain dynamics required to support this transition, examining the complex trade-offs between transportation, inventory, and facility management. Understanding these coupled interactions is essential for achieving cost-effective and sustainable long-term space operations."
+  description: ""
   related_papers:
     - "Replenishment Strategy for Satellite Constellation with Dual Supply Modes"
     - "On-Orbit Servicing-Integrated Maintenance Strategy for Satellite Constellation"
     - "Joint Replenishment Strategy for Multiple Satellite Constellations with Shared Launch Opportunities"
 
-- title: "Modular Architecture Design of Complex Systems"
+- title: "Assessment of Design & Operations of Space Systems with On-Orbit Servicing"
+  image: "/assets/img/research_geo_architecting.png"
+  caption: "Past and future of GEO communication satellite driven by on-orbit servicing."
+  description: ""
+  related_papers:
+    - "System Architecting for GEO Communication Satellite Considering On-Orbit Refueling"
+
+- title: "Analysis and Design of Complex Systems"
   image: "/assets/img/research_dsm_clustering.png"
-  caption: "An example modular architecture design expressed by a design structure matrix (DSM) with various constraints"
-  description: "Modular architecture design serves as a fundamental strategy to manage the complexity of engineering systems by decomposing them into independent, manageable units. While traditional approaches prioritize minimizing inter-module interactions for development efficiency, this research expands the optimization scope to the entire system lifecycle. We focus on integrating diverse downstream considerations---such as procurement and manufacturing---into the architectural decision-making process to derive modular designs that maximize total system value."
+  caption: "A modular architecture design of front suspension system of automobile expressed by a design structure matrix (DSM) with various constraints"
+  description: ""
   related_papers:
     - "Mathematical Programming-Based Design Structure Matrix Clustering for Optimal Modular Architecture Design"
     - "Optimal Design Structure Matrix Clustering with Constraint Selections for Conflict Resolution"
-    - "Optimal Clustering of Design Structure Matrix for Modular Architecture Design with Make-Buy Decision"
+    - "Managing Module Boundaries Across the OEM-Supplier Interface: A Bi-Objective DSM Clustering Approach
+    - "Constrained Modularity Maximization in Complex Networks via Graph Partitining and Column Generation"
+    - "Multi-Domain Matrix Framework for Human Resource Decision Support in Startups"
 
-- title: "Astrodynamics and Space Mission Design"
+- title: "Fundamentals of Space Environment from Design & Operations Perspectives"
   image: "/assets/video/research_astrodynamics.mp4"
   caption: "Rendezvous transfers between elliptic orbits with porkchop plot and its lift to 3D space."
-  description: "Astrodynamics provides the mathematical foundation for spacecraft motion and mission design. This research focuses on trajectory optimization, rendezvous dynamics, and orbital transfer analysis, with an emphasis on understanding the structure, performance, and robustness of spacecraft trajectories. These studies support more interpretable and practically useful approaches to space mission analysis, design, and operations."
+  description: ""
   related_papers:
     - "Families of Two-Impulse Optimal Rendezvous Transfers Between Elliptic Orbits"
-
-# - title: "Complex Organizational Analysis and Decision Support"
-#   image: "/assets/img/research_org_analysis.png"
-#   caption: "A multi-domain matrix framework for organizational analysis and decision support."
-#   description: "Organizational design is a critical determinant of a firm's performance, yet the complexity of organizational structures often obscures the underlying dynamics that drive success. This research develops a multi-domain matrix framework to analyze and optimize organizational configurations, providing actionable insights for decision-makers. By systematically evaluating the interactions between various organizational elements, we aim to identify design principles that enhance efficiency, adaptability, and overall firm performance."
-#   related_papers:
-#     - "Multi-Domain Matrix Framework for Human Resource Decision Support in Startups"
-
-- title: "Exploration of Novel System Architectures"
-  image: "/assets/img/research_geo_architecting.png"
-  caption: "Past and future of GEO communication satellite driven by on-orbit servicing."
-  description: "Emerging technologies, such as advanced propulsion systems (electric/nuclear) and on-orbit servicing (OOS), are expanding the design space of spacecraft beyond traditional limits. This research investigates the architectural implications of these innovations, exploring how they enable novel system configurations with superior performance. We aim to identify architectural solutions that effectively leverage these technologies to maximize stakeholder value, while also analyzing the broader transformative impacts these advancements will drive across the space industry."
-  related_papers:
-    - "System Architecting for GEO Communication Satellite Considering On-Orbit Refueling"
+    - "Korean Space Collision Risk Analysis Software Based on 3D-Cell Model"
 
 - title: "Conceptual Design of Launch Vehicle"
   image: "/assets/img/research_lv_design.png"
