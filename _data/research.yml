@@ -10,14 +10,14 @@
 - title: "Assessment of Design & Operations of Space Systems with On-Orbit Servicing"
   image: "/assets/img/research_geo_architecting.png"
   caption: "Past and future of GEO communication satellite driven by on-orbit servicing."
-  description: "On-orbit servicing (OOS) is an emerging capability that can reshape the future of space systems by enabling in-space refueling, repair, and upgrades. These services can extend the operational life of satellites while opening new design and operations paradigms that move beyond conventional mission architectures. However, market adoption remains challenging due to technological complexity, safety concerns, and a chicken-and-egg problem where operators hesitate to embrace OOS before the value of OOS is clearly demonstrated. This research assesses how OOS can change the value of space systems by influencing system architecture, lifecycle operations, and the broader design philosophy of future space missions."
+  description: "On-orbit servicing (OOS) is an emerging capability that can reshape the future of space systems by enabling in-space refueling, repair, and upgrades. These services can extend the operational life of satellites while opening new design and operations paradigms that move beyond conventional mission architectures. However, market adoption remains challenging due to technological complexity, safety concerns, and a chicken-and-egg problem where commercial operators hesitate to embrace OOS before the value of OOS is clearly demonstrated. This research assesses how OOS can change the value of space systems by influencing system architecture, lifecycle operations, and the broader design philosophy of future space missions."
   related_papers:
     - "System Architecting for GEO Communication Satellite Considering On-Orbit Refueling"
 
 - title: "Analysis and Design of Complex Systems"
   image: "/assets/img/research_dsm_clustering.png"
   caption: "A modular architecture design of front suspension system of automobile expressed by a design structure matrix (DSM) with various constraints"
-  description: ""
+  description: "Complex systems are composed of many interacting components, making their structure and behavior difficult to understand within the limits of human cognition. This research approaches complex systems by decomposing them into manageable modules, or more broadly, domains, analyzing the interactions among them, and reconnecting the results to support system-level understanding. We develop methods for analyzing and designing engineered products, organizations, processes, and multi-domain systems, with the goal of reformulating complex problems into human-solvable forms supported by computational tools."
   related_papers:
     - "Mathematical Programming-Based Design Structure Matrix Clustering for Optimal Modular Architecture Design"
     - "Optimal Design Structure Matrix Clustering with Constraint Selections for Conflict Resolution"
