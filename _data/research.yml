@@ -7,7 +7,7 @@
     - "On-Orbit Servicing-Integrated Maintenance Strategy for Satellite Constellation"
     - "Joint Replenishment Strategy for Multiple Satellite Constellations with Shared Launch Opportunities"
 
-- title: "Assessment of Design & Operations of Space Systems with On-Orbit Servicing"
+- title: "Design & Operations of Space Systems with On-Orbit Servicing"
   image: "/assets/img/research_geo_architecting.png"
   caption: "Past and future of GEO communication satellite driven by on-orbit servicing."
   description: "On-orbit servicing (OOS) is an emerging capability that can reshape the future of space systems by enabling in-space refueling, repair, and upgrades. These services can extend the operational life of satellites while opening new design and operations paradigms that move beyond conventional mission architectures. However, market adoption remains challenging due to technological complexity, safety concerns, and a chicken-and-egg problem where commercial operators hesitate to embrace OOS before the value of OOS is clearly demonstrated. This research assesses how OOS can change the value of space systems by influencing system architecture, lifecycle operations, and the broader design philosophy of future space missions."
