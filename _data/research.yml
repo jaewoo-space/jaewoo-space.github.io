@@ -7,12 +7,13 @@
     - "On-Orbit Servicing-Integrated Maintenance Strategy for Satellite Constellation"
     - "Joint Replenishment Strategy for Multiple Satellite Constellations with Shared Launch Opportunities"
 
-- title: "Design & Operations of Space Systems with On-Orbit Servicing"
+- title: "Operations-Informed System Design"
   image: "/assets/img/research_geo_architecting.png"
   caption: "Past and future of GEO communication satellite driven by on-orbit servicing."
-  description: "On-orbit servicing (OOS) is an emerging capability that can reshape the future of space systems by enabling in-space refueling, repair, and upgrades. These services can extend the operational life of satellites while opening new design and operations paradigms that move beyond conventional mission architectures. However, market adoption remains challenging due to technological complexity, safety concerns, and a chicken-and-egg problem where commercial operators hesitate to embrace OOS before the value of OOS is clearly demonstrated. This research assesses how OOS can change the value of space systems by influencing system architecture, lifecycle operations, and the broader design philosophy of future space missions."
+  description: "Space system design is often inseparable from the operational decisions that follow throughout a system lifecycle. In the context of on-orbit servicing, this research examines how design decisions such as satellite architecture and serviceability interact with operational decisions such as refueling, repair, upgrades, and service scheduling, and how these interactions affect system value and market adoption. In launch vehicle conceptual design, the focus shifts to the coupling between design decisions such as stage sizing and mass allocation and operational decisions such as trajectory design and flight requirement management, with the goal of identifying efficient vehicle configurations and flight paths."
   related_papers:
     - "System Architecting for GEO Communication Satellite Considering On-Orbit Refueling"
+    - "Simultaneous Optimization of Launch Vehicle Stage and Trajectory Considering Flight-Requirement Constraints"
 
 - title: "Analysis and Design of Complex Systems"
   image: "/assets/img/research_dsm_clustering.png"
@@ -33,9 +34,3 @@
     - "Families of Two-Impulse Optimal Rendezvous Transfers Between Elliptic Orbits"
     - "Korean Space Collision Risk Analysis Software Based on 3D-Cell Model"
 
-- title: "Conceptual Design of Launch Vehicle"
-  image: "/assets/img/research_lv_design.png"
-  caption: "Overview of the conceptual design framework for launch vehicles."
-  description: "Launch vehicle conceptual design requires a multidisciplinary optimization approach, particularly addressing the strong coupling between stage sizing and trajectory design. While optimal staging minimizes lift-off mass by allocating structural and propellant distributions, trajectory optimization maximizes payload delivery by managing ascent velocity losses. This research focuses on the simultaneous optimization of these interconnected elements to determine the most efficient launch vehicle configuration and flight path."
-  related_papers:
-    - "Simultaneous Optimization of Launch Vehicle Stage and Trajectory Considering Flight-Requirement Constraints"
