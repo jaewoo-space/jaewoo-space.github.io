@@ -1,7 +1,7 @@
 - title: "Supply Chain Management for Maintenance Strategy of Satellite Constellation"
   image: "/assets/img/research_con_maintenance.png"
   caption: "Overview of various maintenance strategies for satellite mega-constellation."
-  description: ""
+  description: "Maintenance for satellite constellations is becoming an increasingly critical issue in the space industry, as it shapes demand for satellite manufacturing, materials, and launch services while directly affecting constellation availability and the ability to serve markets such as communications, Earth observation, and navigation. This research approaches constellation maintenance from a supply chain management perspective, examining how decisions made by stakeholders interact across the system. We develop and evaluate maintenance strategies under fixed supply chain structures, identifying critical bottlenecks and analyzing how solutions for one stakeholder influence other key players and the overall performance of the supply chain."
   related_papers:
     - "Replenishment Strategy for Satellite Constellation with Dual Supply Modes"
     - "On-Orbit Servicing-Integrated Maintenance Strategy for Satellite Constellation"
@@ -21,7 +21,7 @@
   related_papers:
     - "Mathematical Programming-Based Design Structure Matrix Clustering for Optimal Modular Architecture Design"
     - "Optimal Design Structure Matrix Clustering with Constraint Selections for Conflict Resolution"
-    - "Managing Module Boundaries Across the OEM-Supplier Interface: A Bi-Objective DSM Clustering Approach
+    - "Managing Module Boundaries Across the OEM-Supplier Interface: A Bi-Objective DSM Clustering Approach"
     - "Constrained Modularity Maximization in Complex Networks via Graph Partitining and Column Generation"
     - "Multi-Domain Matrix Framework for Human Resource Decision Support in Startups"
 
