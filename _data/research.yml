@@ -28,7 +28,7 @@
 - title: "Fundamentals of Space Environment from Design & Operations Perspectives"
   image: "/assets/video/research_astrodynamics.mp4"
   caption: "Rendezvous transfers between elliptic orbits with porkchop plot and its lift to 3D space."
-  description: ""
+  description: "Space systems are fundamentally shaped by the space environment, including orbital mechanics, solar radiation and particles, and interactions with other space objects. These conditions make the design and operations of space systems fundamentally different from those of terrestrial systems, making a deep understanding of the space environment essential to space engineering. This research branch studies the fundamentals of the space environment from design and operations perspectives, and applies these insights to problems."
   related_papers:
     - "Families of Two-Impulse Optimal Rendezvous Transfers Between Elliptic Orbits"
     - "Korean Space Collision Risk Analysis Software Based on 3D-Cell Model"
