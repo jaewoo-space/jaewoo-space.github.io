@@ -14,6 +14,7 @@
   related_papers:
     - "System Architecting for GEO Communication Satellite Considering On-Orbit Refueling"
     - "Simultaneous Optimization of Launch Vehicle Stage and Trajectory Considering Flight-Requirement Constraints"
+    - "Reinforcement Learning-Based Architecture Design Optimization of Large Space Systems with On-Orbit Servicing"
 
 - title: "Analysis and Design of Complex Systems"
   image: "/assets/img/research_dsm_clustering.png"
@@ -24,7 +25,7 @@
     - "Optimal Design Structure Matrix Clustering with Constraint Selections for Conflict Resolution"
     - "Managing Module Boundaries Across the OEM-Supplier Interface: A Bi-Objective DSM Clustering Approach"
     - "Constrained Modularity Maximization in Complex Networks via Graph Partitining and Column Generation"
-    - "Multi-Domain Matrix Framework for Human Resource Decision Support in Startups"
+    - "Multi-Domain Matrix Framework for Human Resource Decision Support"
 
 - title: "Fundamentals of Space Environment from Design & Operations Perspectives"
   image: "/assets/video/research_astrodynamics.mp4"

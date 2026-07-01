@@ -47,7 +47,7 @@
 
 - title: "Families of Two-Impulse Optimal Rendezvous Transfers Between Elliptic Orbits"
   authors: "Park, B., Howell, K. C., <u><b>Kim, J.</b></u>, and Ahn, J."
-  venue: "under review at AAS The Journal of the Astronautical Sciences"
+  venue: "under revision review at AAS Journal of the Astronautical Sciences"
   year: 2026
   type: "preprint"
   link: "https://arxiv.org/abs/2603.11538"
@@ -71,7 +71,7 @@
   year: 2026
   type: "preprint"
 
-- title: "Multi-Domain Matrix Framework for Human Resource Decision Support in Startups"
+- title: "Multi-Domain Matrix Framework for Human Resource Decision Support"
   authors: "Lee, D., Ahn, J., and <u><b>Kim, J.</b></u>"
   venue: "in preparation"
   year: 2026
@@ -79,6 +79,18 @@
 
 - title: "Constrained Modularity Maximization in Complex Networks via Graph Partitining and Column Generation"
   authors: "<b>Kim, J.</b>, <u>Lee, S.</u>, Choi, E., Kim J.-H., and Ahn, J."
+  venue: "in preparation"
+  year: 2026
+  type: "preprint"
+
+- title: "Reinforcement Learning-Based Architecture Design Optimization of Large Space Systems with On-Orbit Servicing"
+  authors: "<b>Kim, J.</b>, Ahn, J., and Choi, J."
+  venue: "in preparation"
+  year: 2026
+  type: "preprint"
+
+- title: "Cooperative Ground and Space Sensors Tasking for Emergency Collision Events"
+  authors: "<b>Kim, J.</b>, Song, M., Yu, J., Choi, E. J., Kam, H., Jo, J., and Ahn, J."
   venue: "in preparation"
   year: 2026
   type: "preprint"
