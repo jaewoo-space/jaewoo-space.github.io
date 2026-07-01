@@ -3,8 +3,8 @@
   caption: "Overview of various maintenance strategies for satellite mega-constellation."
   description: "Maintenance for satellite constellations is becoming an increasingly critical issue in the space industry, as it shapes demand for satellite manufacturing, materials, and launch services while directly affecting constellation availability and the ability to serve markets such as communications, Earth observation, and navigation. This research approaches constellation maintenance from a supply chain management perspective, examining how decisions made by stakeholders interact across the system. We develop and evaluate maintenance strategies under fixed supply chain structures, identifying critical bottlenecks and analyzing how solutions for one stakeholder influence other key players and the overall performance of the supply chain."
   related_papers:
-    - "Replenishment Strategy for Satellite Constellation with Dual Supply Modes"
     - "On-Orbit Servicing-Integrated Maintenance Strategy for Satellite Constellation"
+    - "Replenishment Strategy for Satellite Constellation with Dual Supply Modes"
     - "Joint Replenishment Strategy for Multiple Satellite Constellations with Shared Launch Opportunities"
 
 - title: "Operations-Informed System Design"
