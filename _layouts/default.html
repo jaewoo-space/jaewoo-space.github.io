@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ page.title }} | {{ site.title }}</title>
     
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=20260702-jump-button-align-publications' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=20260703-back-to-top' | relative_url }}">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -53,6 +53,12 @@
         </div>
     </div>
 
+    <button type="button" class="back-to-top" data-back-to-top aria-label="Back to top" title="Back to top" aria-hidden="true" tabindex="-1">
+        <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+            <path d="m18 15-6-6-6 6"></path>
+        </svg>
+    </button>
+
     <script>
       (function () {
         var modal = document.getElementById('figure-modal');
@@ -61,6 +67,7 @@
         var content = modal.querySelector('.figure-modal-content');
         var closeButtons = modal.querySelectorAll('[data-close-figure-modal]');
         var previousFocus = null;
+        var backToTop = document.querySelector('[data-back-to-top]');
 
         function closeModal() {
           modal.classList.remove('is-open');
@@ -122,6 +129,23 @@
 
         openPublicationOverviewFromHash();
         window.addEventListener('hashchange', openPublicationOverviewFromHash);
+
+        function updateBackToTop() {
+          if (!backToTop) return;
+
+          var isVisible = window.scrollY > 360;
+          backToTop.classList.toggle('is-visible', isVisible);
+          backToTop.setAttribute('aria-hidden', isVisible ? 'false' : 'true');
+          backToTop.tabIndex = isVisible ? 0 : -1;
+        }
+
+        if (backToTop) {
+          backToTop.addEventListener('click', function () {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+          });
+          window.addEventListener('scroll', updateBackToTop, { passive: true });
+          updateBackToTop();
+        }
       }());
     </script>
 
