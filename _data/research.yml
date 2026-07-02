@@ -1,11 +1,12 @@
-- title: "Supply Chain Management for Maintenance of Satellite Constellation"
+- title: "Space Logistics"
   image: "/assets/img/research_con_maintenance.png"
-  caption: "Overview of various maintenance strategies for satellite mega-constellation."
-  description: "Maintenance for satellite constellations is becoming an increasingly critical issue in the space industry, as it shapes demand for satellite manufacturing, materials, and launch services while directly affecting constellation availability and the ability to serve markets such as communications, Earth observation, and navigation. This research approaches constellation maintenance from a supply chain management perspective, examining how decisions made by stakeholders interact across the system. We develop and evaluate maintenance strategies under fixed supply chain structures, identifying critical bottlenecks and analyzing how solutions for one stakeholder influence other key players and the overall performance of the supply chain."
+  caption: "Supply chains of various maintenance strategies for satellite mega-constellation."
+  description: "Space Logistics is defined by the AIAA Space Logistics Technical Committee as \"the theory and practice of driving space system design for operability and supportability, and of managing the flow of material, services, and information needed throughout a space system lifecycle.\" Building on this definition, this research addresses logistics planning and management for long-term, complex space operations across the system lifecycle. By adopting perspectives from supply chain management, it identifies key factors that affect the design and operation of space systems, develops methods to optimize system performance and value, and models and analyzes the relevant stakeholders involved throughout the lifecycle."
   related_papers:
     - "On-Orbit Servicing-Integrated Maintenance Strategy for Satellite Constellation"
     - "Replenishment Strategy for Satellite Constellation with Dual Supply Modes"
     - "Joint Replenishment Strategy for Multiple Satellite Constellations with Shared Launch Opportunities"
+    - "Cooperative Tasking of Space and Ground Observatories for Emergency Collision Events"
 
 - title: "Operations-Informed System Design"
   image: "/assets/img/research_geo_architecting.png"
@@ -23,9 +24,9 @@
   related_papers:
     - "Mathematical Programming-Based Design Structure Matrix Clustering for Optimal Modular Architecture Design"
     - "Optimal Design Structure Matrix Clustering with Constraint Selections for Conflict Resolution"
-    - "Managing Module Boundaries Across the OEM-Supplier Interface: A Bi-Objective DSM Clustering Approach"
-    - "Constrained Modularity Maximization in Complex Networks via Graph Partitining and Column Generation"
     - "Multi-Domain Matrix Framework for Human Resource Decision Support"
+    - "Managing Module Boundaries Across the OEM-Supplier Interface: A Bi-Objective DSM Clustering Approach"
+    - "Constrained Modularity Maximization in Complex Networks via Branch-and-Price"
 
 - title: "Fundamentals of Space Environment from Design & Operations Perspectives"
   image: "/assets/video/research_astrodynamics.mp4"

@@ -17,9 +17,15 @@ title: Research
         </div>
     </div>
 
+    <nav class="section-jump-links" aria-label="Research sections">
+        {% for project in site.data.research %}
+            <a href="#research-{{ project.title | slugify }}">{{ project.title }}</a>
+        {% endfor %}
+    </nav>
+
     <div class="research-list">
         {% for project in site.data.research %}
-        <div class="research-item-vertical">
+        <div class="research-item-vertical" id="research-{{ project.title | slugify }}">
             
             <h3 class="research-title">{{ project.title }}</h3>
 
@@ -65,23 +71,29 @@ title: Research
                     <ul class="related-pubs-list">
                         {% for paper_title in project.related_papers %}
                             {% assign matched_pub = site.data.publications | where: "title", paper_title | first %}
-                            {% if matched_pub %}
                             <li>
-                                <span class="rel-pub-title-text">
-                                    {{ matched_pub.title }}
-                                </span>
-                                
-                                <span class="rel-pub-meta">
-                                    - {% include publication_meta.html pub=matched_pub %}
-                                </span>
+                                {% if matched_pub %}
+                                    <span class="rel-pub-title-text">
+                                        {{ matched_pub.title }}
+                                    </span>
 
-                                {% if matched_pub.link or matched_pub.pdf %}
-                                <a href="{{ matched_pub.link | default: matched_pub.pdf }}" target="_blank" class="rel-pub-link-icon" title="View Publication">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>
-                                </a>
+                                    <span class="rel-pub-meta">
+                                        - {% include publication_meta.html pub=matched_pub %}
+                                    </span>
+
+                                    {% unless matched_pub.venue == "in preparation" %}
+                                        <a href="{{ '/publications' | relative_url }}#pub-{{ matched_pub.title | slugify }}" class="rel-pub-page-link" aria-label="View publication details for {{ matched_pub.title | escape }}">
+                                            <span>Details</span>
+                                            <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M5 12h14"></path>
+                                                <path d="m12 5 7 7-7 7"></path>
+                                            </svg>
+                                        </a>
+                                    {% endunless %}
+                                {% else %}
+                                    <span class="rel-pub-title-text">{{ paper_title }}</span>
                                 {% endif %}
                             </li>
-                            {% endif %}
                         {% endfor %}
                     </ul>
                 </div>

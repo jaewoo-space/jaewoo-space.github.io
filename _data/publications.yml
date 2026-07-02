@@ -3,60 +3,90 @@
 # ==========================================
 - title: "On-Orbit Servicing-Integrated Maintenance Strategy for Satellite Constellation"
   authors: "<b>Kim, J.</b>, Sung, T., Hwang, W., and <u>Ahn, J.</u>"
-  venue: "accepted by AIAA Journal of Spacecraft and Rockets"
-  year: 2026
+  venue: "accepted by Journal of Spacecraft and Rockets"
   type: "journal"
   link: "https://doi.org/10.48550/arXiv.2512.18985"
+  summary: "This paper proposes an on-orbit servicing (OOS)-integrated maintenance strategy for satellite constellations that combines new satellite deployment with OOS-based recovery of failed satellites. An inventory management model with a parametric replenishment policy is developed to evaluate maintenance performance and formulate the operator-provider interaction as a bi-objective optimization problem: the operator minimizes cost while maintaining service levels, whereas the OOS provider maximizes profit through pricing and performance decisions. A real-world-scale case study shows that the Pareto frontier is driven primarily by provider pricing, while the operator's maintenance strategy remains nearly invariant. Among OOS-related parameters, the recoverable failure fraction has the strongest structural effect."
+  detail_image: "/assets/img/overview-kim-2026-orbit.png"
 
 - title: "System Architecting for GEO Communication Satellite Considering On-Orbit Refueling"
   authors: "<b>Kim, J.</b> and <u>Ahn, J.</u>"
-  venue: "AIAA Journal of Spacecraft and Rockets, Vol. 63, No. 1"
+  venue: "Journal of Spacecraft and Rockets, Vol. 63, No. 1"
   year: 2026
   type: "journal"
   link: "https://doi.org/10.2514/1.A36403"
+  summary: "This paper addresses satellite system architecture selection under commercial on-orbit refueling (OOR), focusing on two design parameters: design lifetime and initial propellant loading. The problem is formulated as a mathematical optimization, with design lifetime and initial propellant mass as design variables and two objectives balancing monetary return and risk. To solve it, we develop a surrogate-model-based framework grounded in satellite lifecycle simulation, incorporating uncertainty, operational flexibility, and modified sizing and cost models for OOR-enabled systems. A GEO communication satellite case study evaluates current service-performance targets and explores alternative architectures beyond traditional design trends."
+  detail_image: "/assets/img/overview-kim-2026-system.png"
 
 - title: "Mathematical Programming-Based Design Structure Matrix Clustering for Optimal Modular Architecture Design"
   authors: "<b>Kim, J.</b>, Choi, E., <u>Ahn, J.</u>, Suh, E. S., Kim, J.-H., and Lim, D. G."
-  venue: "ASME Journal of Mechanical Design, Vol. 147, No. 10"
+  venue: "Journal of Mechanical Design, Vol. 147, No. 10"
   year: 2025
   type: "journal"
   link: "https://doi.org/10.1115/1.4068100"
+  summary: "This paper introduces a mixed-integer linear programming (MILP) approach to modular architecture design based on the design structure matrix (DSM). The DSM modularization problem seeks to maximize modularity, quantified by the (Q)-metric, while satisfying constraints that reflect practical considerations across the system life cycle. The proposed formulation is verified through two case studies involving automobile and electric train subsystems, demonstrating its effectiveness and practical applicability."
+  detail_image: "/assets/img/overview-kim-2025-mathematical.png"
 
 - title: "Replenishment Strategy for Satellite Constellation with Dual Supply Modes"
   authors: "<b>Kim, J.</b>, Ahn, J., and <u>Sung, T.</u>"
-  venue: "AIAA Journal of Spacecraft and Rockets, Vol. 62, No. 5"
+  venue: "Journal of Spacecraft and Rockets, Vol. 62, No. 5"
   year: 2025
   type: "journal"
   link: "https://doi.org/10.2514/1.A36281"
+  summary: "This paper proposes a replenishment strategy for satellite mega-constellations using primary and auxiliary supply modes. The primary mode uses an indirect channel, placing spare satellites in a parking orbit before transferring them to target orbital planes via onboard propulsion, whereas the auxiliary mode directly injects spares into their designated planes. An inventory management model with time-window-based parametric replenishment policies is developed, and optimization problems are formulated from the perspectives of the constellation operator and launch service provider. A case study shows that the effectiveness of the direct channel is context-dependent and reveals the operational tension between the small-launch provider and the mega-constellation operator."
+  detail_image: "/assets/img/overview-kim-2025-replenishment.png"
 
 - title: "Simultaneous Optimization of Launch Vehicle Stage and Trajectory Considering Flight-Requirement Constraints"
   authors: "Ko, J., <b>Kim, J.</b>, Choi, J., and <u>Ahn, J.</u>"
-  venue: "KSAS International Journal of Aeronautical and Space Sciences, Vol. 25"
+  venue: "International Journal of Aeronautical and Space Sciences, Vol. 25"
   year: 2024
   type: "journal"
   link: "https://doi.org/10.1007/s42405-024-00737-1"
+  summary: "Conceptual design of launch vehicle involves multiple disciplines, including structures, aerodynamics, propulsion, flight control, and stage sizing. This paper focuses on the integrated optimization of trajectory and stage sizing. Conventional approaches often treat these tasks sequentially, which can increase computational complexity and yield suboptimal designs. The proposed framework minimizes lift-off mass while satisfying flight requirements, including limits on maximum dynamic pressure and impact points of separated parts. A case study demonstrates the advantage of the integrated framework over the conventional sequential optimization approach."
+  detail_image: "/assets/img/overview-ko-2024-simultaneous.png"
+
+- title: "Families of Two-Impulse Optimal Rendezvous Transfers Between Elliptic Orbits"
+  authors: "Park, B., Howell, K. C., <u><b>Kim, J.</b></u>, and Ahn, J."
+  venue: "revised manuscript under review at The Journal of the Astronautical Sciences"
+  type: "journal"
+  link: "https://doi.org/10.48550/arXiv.2603.11538"
+  summary: "This paper revisits the classical fuel-optimal two-impulse rendezvous problem between Keplerian orbits from a family-based perspective. The framework applies selected first-order optimality conditions and numerical continuation to connect isolated optima into continuous one-parameter families. These families are classified using Hessian-based criteria and Primer Vector Theory and projected onto porkchop plots. Case studies show how locally optimal branches emerge, merge, and disappear with orbital geometry, providing a global map of solution robustness and near-optimal alternatives."
+  detail_image: "/assets/img/overview-park-2026-families.png"
+
+- title: "Korean Space Collision Risk Analysis Software Based on 3D-Cell Model"
+  authors: "<b>Kim, J.</b>, Song, M., Lee, J., Yu, J., Choi, E. J., Kam, H., Jo, J., and <u>Ahn, J.</u>"
+  venue: "under revision at International Journal of Aeronautical and Space Sciences"
+  type: "journal"
+  summary: "Space situational awareness (SSA) capabilities are becoming increasingly critical as access to space expands and space activities intensify. SSA supports operations, planning, and strategic and political decision-making worldwide. This paper introduces the baseline model and implementation details of the developed software. It also presents the results and implications of numerical studies focused on low Earth orbit. These studies analyze the effects of key input parameters and investigate the evolution of the space collision environment, providing insights for parameter selection and demonstrating the applicability of the developed software."
+  detail_image: "/assets/img/overview-kim-2026-korean.png"
+
+- title: "Optimal Design Structure Matrix Clustering with Constraint Selections for Conflict Resolution"
+  authors: "Choi, E., <b>Kim, J.</b>, Kim, J.-H., Suh, E. S., and <u>Ahn, J.</u>"
+  venue: "under review at Journal of Mechanical Design"
+  type: "journal"
+  summary: "This paper introduces an optimal clustering method for a design structure matrix (DSM) with constraints selection. In DSM clustering problems, constraints may conflict with one another, making it impossible to obtain a feasible solution, as illustrated in the figure. The proposed approach addresses such cases by simultaneously determining an optimal modular design that maximizes the modularity metric, (Q), while minimizing constraint violations according to their priorities and weights. A case study of an automobile suspension system demonstrates the effectiveness of the method in achieving high-quality clustering while resolving constraint conflicts."
+  detail_image: "/assets/img/overview-choi-2026-optimal.png"
+
+- title: "Multi-Domain Matrix Framework for Human Resource Decision Support"
+  authors: "Lee, D., Ahn, J., and <u><b>Kim, J.</b></u>"
+  venue: "submitted to Systems Engineering"
+  type: "journal"
+  summary: "This paper presents an actionable human resource (HR) decision-support framework for small firms and startups based on a multi-domain matrix (MDM). The framework addresses complex interdependencies among members, skills, and projects by formulating startup HR management as a multi-domain structural modeling problem. It provides qualitative guidelines and quantitative metrics for diagnosing HR states and supporting decisions on workload redistribution, hiring, and capability development. A case study of an early-stage technology startup demonstrates that the framework identifies workload imbalances, detects unsustainable member workloads, and informs hiring decisions while supporting continuous HR diagnosis after organizational changes."
+  detail_image: "/assets/img/overview-lee-2026-multi.png"
+
+# ==========================================
+# Papers Written in Korean
+# ==========================================
+- title: "Development of 3D Cell Model for Collision Risk Assessment of Space Assets"
+  authors: "<b>Kim, J.</b>, Lee, J., Choi, E. J., Choi, J., Yu, J., Jo, J., Kam, H., and <u>Ahn, J.</u>"
+  venue: "Journal of Space Technology and Applications, Vol. 25, No. 2"
+  year: 2025
+  type: "journal_korean"
+  link: "https://doi.org/10.52912/jsta.2025.5.2.114"
 
 # ==========================================
 # Preprints & Work in Progress
 # ==========================================
-- title: "Optimal Design Structure Matrix Clustering with Constraint Selections for Conflict Resolution"
-  authors: "Choi, E., <b>Kim, J.</b>, Kim, J.-H., Suh, E. S., and <u>Ahn, J.</u>"
-  venue: "under review at ASME Journal of Mechanical Design"
-  year: 2026
-  type: "preprint"
-
-- title: "Families of Two-Impulse Optimal Rendezvous Transfers Between Elliptic Orbits"
-  authors: "Park, B., Howell, K. C., <u><b>Kim, J.</b></u>, and Ahn, J."
-  venue: "under revision review at AAS Journal of the Astronautical Sciences"
-  year: 2026
-  type: "preprint"
-  link: "https://arxiv.org/abs/2603.11538"
-
-- title: "Korean Space Collision Risk Analysis Software Based on 3D-Cell Model"
-  authors: "<b>Kim, J.</b>, Song, M., Lee, J., Yu, J., Choi, E. J., Kam, H., Jo, J., and <u>Ahn, J.</u>"
-  venue: "under review at KSAS International Journal of Aeronautical and Space Sciences"
-  year: 2026
-  type: "preprint"
 
 - title: "Joint Replenishment Strategy for Multiple Satellite Constellations with Shared Launch Opportunities"
   authors: "<b>Kim, J.</b>, Sung, T., Hwang, W., and <u>Ahn, J.</u>"
@@ -71,14 +101,8 @@
   year: 2026
   type: "preprint"
 
-- title: "Multi-Domain Matrix Framework for Human Resource Decision Support"
-  authors: "Lee, D., Ahn, J., and <u><b>Kim, J.</b></u>"
-  venue: "in preparation"
-  year: 2026
-  type: "preprint"
-
-- title: "Constrained Modularity Maximization in Complex Networks via Graph Partitining and Column Generation"
-  authors: "<b>Kim, J.</b>, <u>Lee, S.</u>, Choi, E., Kim J.-H., and Ahn, J."
+- title: "Constrained Modularity Maximization in Complex Networks via Branch-and-Price"
+  authors: "<b>Kim, J.</b>, <u>Lee, S.</u>, Ahn, J., Choi, E., and Kim, J.-H."
   venue: "in preparation"
   year: 2026
   type: "preprint"
@@ -89,7 +113,7 @@
   year: 2026
   type: "preprint"
 
-- title: "Cooperative Ground and Space Sensors Tasking for Emergency Collision Events"
+- title: "Cooperative Tasking of Space and Ground Observatories for Emergency Collision Events"
   authors: "<b>Kim, J.</b>, Song, M., Yu, J., Choi, E. J., Kam, H., Jo, J., and <u>Ahn, J.</u>"
   venue: "in preparation"
   year: 2026
@@ -98,35 +122,173 @@
 # ==========================================
 # Conference Proceedings
 # ==========================================
-- title: "Flexibiliy-Aware Assessment and Optimization of System Architectural Decision for Large Space Systems Considering On-Orbit Servicing"
-  authors: "<b>Kim, J.</b>, Sung, T., Hwang, W., and Ahn, J."
-  venue: "Asian Congress of Structural and Multidisciplinary Optimization (ACSMO) 2026, Busan, Korea"
+- title: "A Multi-Trip Time-Dependent Traveling Salesman Problem for Space Logistics"
+  authors: "Lee, S., <b>Kim, J.</b>, and Ahn, J."
+  venue: "INFORMS Annual Meeting, San Francisco, California, US"
+  year: 2026
+  type: "conference"
+  note: "to appear"
+
+- title: "Inclination-Aware 2D Source-Sink Modeling for Long-Term Projection of the LEO Collision Environment"
+  authors: "<b>Kim, J.</b>, Song, M., Lee, J., Yu, J., Kam, H., Choi, E.-J., Choi, J., Jo, J. H., and Ahn, J."
+  venue: "27th Advanced Maui Optical and Space Surveillance Technologies (AMOS) Conference, Maui, Hawaii, US"
+  year: 2026
+  type: "conference"
+  note: "to appear"
+
+- title: "Decision Support for Space Debris Remediation Enterprises via Two-Stage System Optimization under Various Future Scenarios"
+  authors: "Song, M., <b>Kim, J.</b>, and Ahn, J."
+  venue: "27th Advanced Maui Optical and Space Surveillance Technologies (AMOS) Conference, Maui, Hawaii, US"
+  year: 2026
+  type: "conference"
+  note: "to appear"
+
+- title: "Flexibility-Aware Assessment and Optimization of System Architectural Decision for Large Space Systems Considering On-Orbit Servicing"
+  authors: "<b>Kim, J.</b>, Choi, J., and Ahn, J."
+  venue: "Asian Congress of Structural and Multidisciplinary Optimization (ACSMO), Busan, Korea"
   year: 2026
   type: "conference"
 
 - title: "Integration of On-Orbit Servicing into Constellation Maintenance with Spare Inventory Management"
   authors: "<b>Kim, J.</b>, Sung, T., Hwang, W., and Ahn, J."
-  venue: "2026 AIAA SciTech Forum, Orlando, Florida, US"
+  venue: "AIAA SciTech Forum, Orlando, Florida, US"
   year: 2026
   type: "conference"
   link: "https://doi.org/10.2514/6.2026-2631"
 
 - title: "Low Earth Orbit Space Debris Remediation Program for Maximizing Stakeholders' Utility"
   authors: "Song, M., <b>Kim, J.</b>, Nam, Y., and Ahn, J."
-  venue: "The 16th Asia-Pacific International Symposium on Aerospace Technology (APISAT), Seoul, Korea"
+  venue: "Asia-Pacific International Symposium on Aerospace Technology (APISAT), Seoul, Korea"
   year: 2025
   type: "conference"
 
 - title: "Joint Replenishment Strategy for Multiple Satellite Constellations"
   authors: "<b>Kim, J.</b>, Sung, T., and Ahn, J."
-  venue: "2025 AIAA SciTech Forum, Orlando, Florida, US"
+  venue: "AIAA SciTech Forum, Orlando, Florida, US"
   year: 2025
   type: "conference"
   link: "https://doi.org/10.2514/6.2025-1757"
 
 - title: "Development of Korea Orbital Debris Evolutionary and Engineering Model"
   authors: "<b>Kim, J.</b>, Lee, J., Kim, H., Choi, E. J., Choi, J., Yu, J., Jo, J., and Ahn, J."
-  venue: "75th International Astronautical Congress (IAC), Milan, Italy"
+  venue: "75th International Astronautical Congress, Milan, Italy"
   year: 2024
   type: "conference"
   link: "https://doi.org/10.52202/078360-0161"
+
+# ==========================================
+# Conference Proceedings Written in Korean
+# ==========================================
+- title: "A Family-Based Framework for Two-Impulse Optimal Rendezvous Transfers"
+  authors: "<b>Kim, J.</b>, Ahn, J., Park, B., and Howell, K. C."
+  venue: "Korean Society for Aeronautical and Space Sciences (KSAS) Space Conference, Busan, Korea"
+  year: 2026
+  type: "conference_korean"
+
+- title: "3D Cell Model-Based Collision Risk Analysis for Historical and Prospective LEO Scenarios"
+  authors: "<b>Kim, J.</b>, Song, M., Yu, J., Kam, H., Choi, E. J., Choi, J., Jo, J. H., and Ahn, J."
+  venue: "Korean Academy of Space Security (KASS) Spring Conference, Yeosu, Korea"
+  year: 2026
+  type: "conference_korean"
+
+- title: "Updates on Space Collision Risk Analysis Framework"
+  authors: "<b>Kim, J.</b>, Song, M., Choi, E. J., Choi, J., Yu, J., Jo, J., Kam, H., and Ahn, J."
+  venue: "Korean Space Science Society (KSSS) Spring Conference, Yeosu, Korea"
+  year: 2026
+  type: "conference_korean"
+
+- title: "Implications of In-situ Resource Utilization from Space Logistics Perspective"
+  authors: "<b>Kim, J.</b>, Yi, G., and Ahn, J."
+  venue: "Korean Society for Aeronautical and Space Sciences (KSAS) Spring Conference, Jeju, Korea"
+  year: 2026
+  type: "conference_korean"
+
+- title: "Research and Standardization of Space Logistics for Long-term Complex Space Mission"
+  authors: "<b>Kim, J.</b>, Yi, G., and Ahn, J."
+  venue: "Korean Society for Aeronautical and Space Sciences (KSAS) Spring Conference, Jeju, Korea"
+  year: 2026
+  type: "conference_korean"
+
+- title: "Integrated Inventory Model for Constellation Maintenance via Spare Satellites and On-Orbit Servicing"
+  authors: "<b>Kim, J.</b>, Sung, T., Song, M., and Ahn, J."
+  venue: "Korean Society for Aeronautical and Space Sciences (KSAS) Fall Conference, Goseong, Korea"
+  year: 2025
+  type: "conference_korean"
+
+- title: "Optimal Design Lifetime and Propellant Loading of GEO Communication Satellites Considering On-Orbit Refueling"
+  authors: "<b>Kim, J.</b>, Song, M., and Ahn, J."
+  venue: "Korean Society for Aeronautical and Space Sciences (KSAS) Fall Conference, Goseong, Korea"
+  year: 2025
+  type: "conference_korean"
+
+- title: "Survey of Risk Indices for Space Objects and Implications"
+  authors: "<b>Kim, J.</b>, Choi, E. J., Choi, J., Yu, J., Jo, J., Kam, H., and Ahn, J."
+  venue: "Korean Space Science Society (KSSS) Fall Conference, Jeju, Korea"
+  year: 2025
+  type: "conference_korean"
+
+- title: "Asteroid Accessibility Searching Algorithm"
+  authors: "Lee, J., Lee, J., Jang, E., Jeon, H., <b>Kim, J.</b>, Lee, C., Scheeres, D. J., and Han, J."
+  venue: "Korean Society for Aeronautical and Space Sciences (KSAS) Space Conference, Yeosu, Korea"
+  year: 2025
+  type: "conference_korean"
+
+- title: "Survey of Research on Economic and Performance Analysis of On-Orbit Servicing and Implications"
+  authors: "<b>Kim, J.</b>, Song, M., and Ahn, J."
+  venue: "Korean Society for Aeronautical and Space Sciences (KSAS) Space Conference, Yeosu, Korea"
+  year: 2025
+  type: "conference_korean"
+
+- title: "Development of Integrated Space Collision Risk Response System"
+  authors: "<b>Kim, J.</b>, Ahn, J., Choi, E. J., Choi, J., Yu, J., and Jo, J."
+  venue: "Korean Academy of Space Security (KASS) Spring Conference, Seoul, Korea"
+  year: 2025
+  type: "conference_korean"
+
+- title: "Progress of Space Debris Environment and Risk Analysis Framework Development"
+  authors: "<b>Kim, J.</b>, Choi, E. J., Choi, J., Yu, J., Jo, J., and Ahn, J."
+  venue: "Korean Space Science Society (KSSS) Spring Conference, Seoul, Korea"
+  year: 2025
+  type: "conference_korean"
+
+- title: "Application of Space Logistics: Maintenance Strategy of Satellite Mega-Constellation"
+  authors: "<b>Kim, J.</b>, Sung, T., and Ahn, J."
+  venue: "Korean Society for Aeronautical and Space Sciences (KSAS) Spring Conference, Jeju, Korea"
+  year: 2025
+  type: "conference_korean"
+
+- title: "Development of Korean 3D Cell Model for Space Debris Environment Analysis"
+  authors: "<b>Kim, J.</b>, Lee, J., Choi, E. J., Jin, C., Yu, J., Jo, J., and Ahn, J."
+  venue: "Korean Space Science Society (KSSS) Fall Conference, Sacheon, Korea"
+  year: 2024
+  type: "conference_korean"
+
+- title: "An Integrated Inventory Management Model for Maintenance of Multiple Satellite Constellations"
+  authors: "<b>Kim, J.</b> and Ahn, J."
+  venue: "Korean Society for Aeronautical and Space Sciences (KSAS) Space Conference, Changwon, Korea"
+  year: 2024
+  type: "conference_korean"
+
+- title: "Conceptual Design of Launch Vehicle Considering Axial Acceleration Constraints"
+  authors: "<b>Kim, J.</b>, Ko, J., Choi, J., Ahn, J., Yoon, N., and Kim, H."
+  venue: "Korean Society for Aeronautical and Space Sciences (KSAS) Space Conference, Changwon, Korea"
+  year: 2024
+  type: "conference_korean"
+
+- title: "Development of Conceptual Design Software for Space Launch Vehicle"
+  authors: "Ko, J., <b>Kim, J.</b>, Choi, J., Ahn, J., Yoon, N., and Kim, H."
+  venue: "Korean Society for Aeronautical and Space Sciences (KSAS) Spring Conference, Jeju, Korea"
+  year: 2024
+  type: "conference_korean"
+
+- title: "Multiobjective Design Optimization of Commercial Satellite Considering On-Orbit Refueling Policy"
+  authors: "<b>Kim, J.</b> and Ahn, J."
+  venue: "Korean Society for Aeronautical and Space Sciences (KSAS) Spring Conference, Jeju, Korea"
+  year: 2023
+  type: "conference_korean"
+
+- title: "Research on the Overseas On-Orbit Servicing Trends and Implications"
+  authors: "<b>Kim, J.</b>, Lee, D. U., and Ahn, J."
+  venue: "Korean Society for Aeronautical and Space Sciences (KSAS) Fall Conference, Jeju, Korea"
+  year: 2022
+  type: "conference_korean"

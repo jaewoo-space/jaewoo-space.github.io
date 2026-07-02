@@ -1,15 +1,6 @@
-<div class="publication-item">
+<div class="publication-item" id="pub-{{ pub.title | slugify }}">
     <div class="pub-title">
         {{ pub.title }}
-
-        {% if pub.link %}
-            <a href="{{ pub.link }}" target="_blank" class="pub-link-icon" title="View Link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
-                    <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
-                </svg>
-            </a>
-        {% endif %}
     </div>
     
     <div class="pub-authors">
@@ -32,4 +23,38 @@
             [<a href="{{ pub.code }}" target="_blank">Code</a>]
         {% endif %}
     </div>
+
+    {% if pub.type == "journal" or pub.link %}
+        <div class="pub-action-row">
+            {% if pub.type == "journal" %}
+                <details class="pub-detail-toggle">
+                    <summary>Overview</summary>
+                </details>
+
+                <div class="pub-detail-body">
+                    {% if pub.detail_image %}
+                        <button type="button" class="pub-detail-figure pub-detail-figure-trigger" data-figure-src="{{ pub.detail_image | relative_url }}" data-figure-alt="{{ pub.detail_image_alt | default: pub.title | escape }}">
+                            <img src="{{ pub.detail_image | relative_url }}" alt="{{ pub.detail_image_alt | default: pub.title }}">
+                        </button>
+                    {% else %}
+                        <button type="button" class="pub-detail-figure pub-detail-figure-trigger pub-detail-placeholder" data-figure-placeholder="true" data-figure-alt="{{ pub.title | escape }}" aria-label="Figure placeholder"></button>
+                    {% endif %}
+
+                    <div class="pub-detail-text">
+                        {% if pub.summary %}
+                            {{ pub.summary | markdownify }}
+                        {% else %}
+                            <p>This placeholder can summarize the research question, approach, and main findings of the paper.</p>
+                        {% endif %}
+                    </div>
+                </div>
+            {% endif %}
+
+            {% if pub.link %}
+                <a href="{{ pub.link }}" target="_blank" rel="noopener" class="pub-external-link" title="Open external link">
+                    External Link
+                </a>
+            {% endif %}
+        </div>
+    {% endif %}
 </div>

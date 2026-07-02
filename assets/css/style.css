@@ -166,8 +166,69 @@ hr {
     font-weight: 700;
 }
 
+.section-jump-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 24px 0 10px;
+    font-family: var(--font-header);
+}
+
+.section-jump-links a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 13px;
+    border: 1px solid var(--mit-red);
+    border-radius: 2px;
+    color: var(--mit-red);
+    font-size: 0.9rem;
+    font-weight: 700;
+    line-height: 1.15;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.section-jump-links a:hover {
+    background-color: var(--mit-red);
+    color: #fff;
+    text-decoration: none;
+}
+
+.subcategory-header {
+    font-family: var(--font-header);
+    font-size: 1.1rem;
+    color: #111;
+    margin-top: 35px;
+    margin-bottom: 18px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #ddd;
+}
+
 .publication-item {
-    margin-bottom: 25px;
+    margin-bottom: 22px;
+}
+
+.publication-list .publication-item + .publication-item {
+    position: relative;
+    margin-top: 24px;
+    padding-top: 24px;
+    border-top: 0;
+}
+
+.publication-list .publication-item + .publication-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: #d8d8d8;
+    z-index: 1;
+}
+
+.publication-list .publication-item:last-child {
+    margin-bottom: 0;
 }
 
 .pub-title {
@@ -176,28 +237,6 @@ hr {
     font-size: 1.1rem;
     color: #000;
     margin-bottom: 4px;
-}
-
-.pub-link-icon {
-    display: inline-flex;
-    align-items: center;
-    margin-left: 6px;
-    
-    color: var(--mit-red); 
-    
-    text-decoration: none;
-    vertical-align: middle;
-    transition: color 0.2s ease;
-}
-
-.pub-link-icon:hover {
-    color: var(--mit-red-dark);
-    cursor: pointer;
-}
-
-.pub-link-icon svg {
-    width: 14px;
-    height: 14px;
 }
 
 .pub-authors {
@@ -237,6 +276,230 @@ hr {
 .pub-links a:hover {
     background-color: var(--mit-red);
     color: #fff;
+}
+
+.pub-action-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 8px;
+    margin-top: 10px;
+    font-family: var(--font-header);
+}
+
+.pub-detail-toggle {
+    display: inline-flex;
+    order: 1;
+    flex: 0 0 auto;
+    margin: 0;
+    padding: 0;
+}
+
+.pub-detail-toggle summary,
+.pub-external-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    min-height: 25px;
+    padding: 3px 9px;
+    border: 1px solid #bbb;
+    border-radius: 2px;
+    background-color: #fff;
+    color: #333;
+    font-size: 0.8rem;
+    font-weight: 700;
+    line-height: 1.35;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+    transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+.pub-detail-toggle summary {
+    cursor: pointer;
+    list-style: none;
+}
+
+.pub-detail-toggle summary::-webkit-details-marker {
+    display: none;
+}
+
+.pub-external-link {
+    order: 2;
+    flex: 0 0 auto;
+    width: fit-content;
+    align-self: flex-start;
+}
+
+.pub-detail-toggle summary:hover,
+.pub-external-link:hover {
+    border-color: var(--mit-red);
+    color: var(--mit-red);
+}
+
+.pub-detail-toggle[open] summary {
+    background-color: var(--mit-red);
+    border-color: var(--mit-red);
+    color: #fff;
+}
+
+.pub-detail-body {
+    display: grid;
+    order: 3;
+    flex: 0 0 100%;
+    width: 100%;
+    grid-template-columns: minmax(180px, 240px) 1fr;
+    gap: 18px;
+    margin-top: 14px;
+    padding: 14px 0 4px;
+    border-top: 1px dotted #ddd;
+}
+
+.pub-detail-toggle:not([open]) ~ .pub-detail-body {
+    display: none;
+}
+
+.pub-detail-figure {
+    width: 100%;
+}
+
+.pub-detail-figure-trigger {
+    display: block;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    cursor: zoom-in;
+    text-align: left;
+}
+
+.pub-detail-figure-trigger:focus-visible {
+    outline: 2px solid var(--mit-red);
+    outline-offset: 3px;
+}
+
+.pub-detail-figure img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: #fff;
+}
+
+.pub-detail-placeholder {
+    min-height: 135px;
+    border: 1px dashed #bbb;
+    border-radius: 4px;
+    background:
+        linear-gradient(135deg, rgba(163,31,52,0.08), rgba(34,34,34,0.04)),
+        #fafafa;
+    position: relative;
+}
+
+.pub-detail-placeholder::after {
+    content: "Figure";
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #777;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.figure-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+}
+
+.figure-modal.is-open {
+    display: flex;
+}
+
+.figure-modal-backdrop {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.72);
+}
+
+.figure-modal-panel {
+    position: relative;
+    z-index: 1;
+    width: min(960px, 94vw);
+    max-height: 90vh;
+    padding: 34px 24px 24px;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 18px 50px rgba(0, 0, 0, 0.35);
+    overflow: auto;
+}
+
+.figure-modal-close {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    width: 28px;
+    height: 28px;
+    border: 0;
+    background: transparent;
+    color: #333;
+    font-size: 1.45rem;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.figure-modal-close:hover,
+.figure-modal-close:focus-visible {
+    color: var(--mit-red);
+}
+
+.figure-modal-content img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.figure-modal-placeholder {
+    min-height: min(62vh, 520px);
+    border: 1px dashed #aaa;
+    border-radius: 4px;
+    background:
+        linear-gradient(135deg, rgba(163,31,52,0.1), rgba(34,34,34,0.05)),
+        #fafafa;
+    position: relative;
+}
+
+.figure-modal-placeholder::after {
+    content: "Figure";
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    font-family: var(--font-header);
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.pub-detail-text {
+    color: #444;
+    font-family: var(--font-body);
+    font-size: 0.92rem;
+    line-height: 1.6;
+}
+
+.pub-detail-text p {
+    margin: 0;
 }
 
 u {
@@ -376,14 +639,15 @@ u {
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
+    scroll-margin-top: 24px;
 }
 
 .research-title {
     font-size: 1.5rem;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     color: #111;
-    border-bottom: 2px solid #eee;
-    padding-bottom: 10px;
+    border-bottom: 2px solid #222;
+    padding-bottom: 5px;
 }
 
 .research-img-center {
@@ -436,6 +700,10 @@ u {
     
     .research-intro-section {
         flex-direction: column-reverse;
+    }
+
+    .pub-detail-body {
+        grid-template-columns: 1fr;
     }
 }
 
@@ -524,6 +792,35 @@ u {
     font-size: 0.85rem;
 }
 
+.rel-pub-page-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    margin-left: 8px;
+    padding: 2px 7px 2px 8px;
+    border: 1px solid #d8d8d8;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #444;
+    font-size: 0.72rem;
+    font-weight: 700;
+    line-height: 1.4;
+    text-decoration: none;
+    transition: background-color 0.2s, border-color 0.2s, color 0.2s;
+}
+
+.rel-pub-page-link svg {
+    width: 11px;
+    height: 11px;
+    flex: 0 0 auto;
+}
+
+.rel-pub-page-link:hover {
+    background-color: #fff5f5;
+    border-color: var(--mit-red);
+    color: var(--mit-red);
+}
+
 .research-caption {
     margin-top: 10px;
     font-size: 0.9rem;
@@ -560,4 +857,50 @@ u {
 .rel-pub-link-icon svg {
     width: 13px;
     height: 13px;
+}
+
+.cv-actions {
+    margin-bottom: 1.25rem;
+    font-family: var(--font-header);
+}
+
+.cv-actions a {
+    display: inline-block;
+    padding: 5px 12px;
+    border: 1px solid var(--mit-red);
+    border-radius: 2px;
+    color: var(--mit-red);
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.2s ease;
+}
+
+.cv-actions a:hover {
+    background-color: var(--mit-red);
+    color: #fff;
+    text-decoration: none;
+}
+
+.cv-viewer {
+    width: 100%;
+    height: min(82vh, 1000px);
+    min-height: 620px;
+    border: 1px solid #ddd;
+    background-color: #f7f7f7;
+}
+
+.cv-viewer iframe {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+@media (max-width: 768px) {
+    .cv-viewer {
+        height: 75vh;
+        min-height: 520px;
+    }
 }

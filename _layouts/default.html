@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ page.title }} | {{ site.title }}</title>
     
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=20260702-jump-button-align-publications' | relative_url }}">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,6 +32,7 @@
                 <a href="{{ '/' | relative_url }}">Home</a>
                 <a href="{{ '/research' | relative_url }}">Research</a>
                 <a href="{{ '/publications' | relative_url }}">Publications</a>
+                <a href="{{ '/cv' | relative_url }}">CV</a>
             </nav>
         </header>
 
@@ -43,6 +44,86 @@
             <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}. All rights reserved.</p>
         </footer>
     </div>
+
+    <div class="figure-modal" id="figure-modal" aria-hidden="true">
+        <div class="figure-modal-backdrop" data-close-figure-modal></div>
+        <div class="figure-modal-panel" role="dialog" aria-modal="true" aria-label="Publication figure">
+            <button type="button" class="figure-modal-close" data-close-figure-modal aria-label="Close">&times;</button>
+            <div class="figure-modal-content"></div>
+        </div>
+    </div>
+
+    <script>
+      (function () {
+        var modal = document.getElementById('figure-modal');
+        if (!modal) return;
+
+        var content = modal.querySelector('.figure-modal-content');
+        var closeButtons = modal.querySelectorAll('[data-close-figure-modal]');
+        var previousFocus = null;
+
+        function closeModal() {
+          modal.classList.remove('is-open');
+          modal.setAttribute('aria-hidden', 'true');
+          content.innerHTML = '';
+          if (previousFocus) previousFocus.focus();
+        }
+
+        function openModal(trigger) {
+          previousFocus = trigger;
+          content.innerHTML = '';
+
+          if (trigger.dataset.figureSrc) {
+            var img = document.createElement('img');
+            img.src = trigger.dataset.figureSrc;
+            img.alt = trigger.dataset.figureAlt || 'Publication figure';
+            content.appendChild(img);
+          } else {
+            var placeholder = document.createElement('div');
+            placeholder.className = 'figure-modal-placeholder';
+            content.appendChild(placeholder);
+          }
+
+          modal.classList.add('is-open');
+          modal.setAttribute('aria-hidden', 'false');
+          var closeButton = modal.querySelector('.figure-modal-close');
+          if (closeButton) closeButton.focus();
+        }
+
+        document.addEventListener('click', function (event) {
+          var trigger = event.target.closest('.pub-detail-figure-trigger');
+          if (trigger) openModal(trigger);
+        });
+
+        closeButtons.forEach(function (button) {
+          button.addEventListener('click', closeModal);
+        });
+
+        document.addEventListener('keydown', function (event) {
+          if (event.key === 'Escape' && modal.classList.contains('is-open')) {
+            closeModal();
+          }
+        });
+
+        function openPublicationOverviewFromHash() {
+          if (!window.location.hash) return;
+
+          var target = document.getElementById(window.location.hash.slice(1));
+          if (!target) return;
+
+          var details = target.querySelector('.pub-detail-toggle');
+          if (!details) return;
+
+          details.open = true;
+          window.requestAnimationFrame(function () {
+            target.scrollIntoView({ block: 'start' });
+          });
+        }
+
+        openPublicationOverviewFromHash();
+        window.addEventListener('hashchange', openPublicationOverviewFromHash);
+      }());
+    </script>
 
 </body>
 </html>
