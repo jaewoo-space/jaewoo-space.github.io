@@ -69,7 +69,7 @@
 
 - title: "Multi-Domain Matrix Framework for Human Resource Decision Support"
   authors: "Lee, D., <u><b>Kim, J.</b></u>, and Ahn, J."
-  venue: "submitted to Systems Engineering"
+  venue: "under review at Systems Engineering"
   type: "journal"
   link: "https://doi.org/10.48550/arXiv.2607.01613"
   summary: "This paper presents an actionable human resource (HR) decision-support framework for small firms and startups based on a multi-domain matrix (MDM). The framework addresses complex interdependencies among members, skills, and projects by formulating startup HR management as a multi-domain structural modeling problem. It provides qualitative guidelines and quantitative metrics for diagnosing HR states and supporting decisions on workload redistribution, hiring, and capability development. A case study of an early-stage technology startup demonstrates that the framework identifies workload imbalances, detects unsustainable member workloads, and informs hiring decisions while supporting continuous HR diagnosis after organizational changes."
