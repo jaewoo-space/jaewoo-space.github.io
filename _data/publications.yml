@@ -60,13 +60,6 @@
   summary: "Space situational awareness (SSA) capabilities are becoming increasingly critical as access to space expands and space activities intensify. SSA supports operations, planning, and strategic and political decision-making worldwide. This paper introduces the baseline model and implementation details of the developed software. It also presents the results and implications of numerical studies focused on low Earth orbit. These studies analyze the effects of key input parameters and investigate the evolution of the space collision environment, providing insights for parameter selection and demonstrating the applicability of the developed software."
   detail_image: "/assets/img/overview-kim-2026-korean.png"
 
-- title: "Optimal Design Structure Matrix Clustering with Constraint Selections for Conflict Resolution"
-  authors: "Choi, E., <b>Kim, J.</b>, Kim, J.-H., Suh, E. S., and <u>Ahn, J.</u>"
-  venue: "under review at Journal of Mechanical Design"
-  type: "journal"
-  summary: "This paper introduces an optimal clustering method for a design structure matrix (DSM) with constraints selection. In DSM clustering problems, constraints may conflict with one another, making it impossible to obtain a feasible solution, as illustrated in the figure. The proposed approach addresses such cases by simultaneously determining an optimal modular design that maximizes the modularity metric, (Q), while minimizing constraint violations according to their priorities and weights. A case study of an automobile suspension system demonstrates the effectiveness of the method in achieving high-quality clustering while resolving constraint conflicts."
-  detail_image: "/assets/img/overview-choi-2026-optimal.png"
-
 - title: "Multi-Domain Matrix Framework for Human Resource Decision Support"
   authors: "Lee, D., <u><b>Kim, J.</b></u>, and Ahn, J."
   venue: "under review at Systems Engineering"
@@ -74,6 +67,13 @@
   link: "https://doi.org/10.48550/arXiv.2607.01613"
   summary: "This paper presents an actionable human resource (HR) decision-support framework for small firms and startups based on a multi-domain matrix (MDM). The framework addresses complex interdependencies among members, skills, and projects by formulating startup HR management as a multi-domain structural modeling problem. It provides qualitative guidelines and quantitative metrics for diagnosing HR states and supporting decisions on workload redistribution, hiring, and capability development. A case study of an early-stage technology startup demonstrates that the framework identifies workload imbalances, detects unsustainable member workloads, and informs hiring decisions while supporting continuous HR diagnosis after organizational changes."
   detail_image: "/assets/img/overview-lee-2026-multi.png"
+
+- title: "Optimal Design Structure Matrix Clustering with Constraint Selections for Conflict Resolution"
+  authors: "Choi, E., <b>Kim, J.</b>, Kim, J.-H., Suh, E. S., and <u>Ahn, J.</u>"
+  venue: "under review at Journal of Mechanical Design"
+  type: "journal"
+  summary: "This paper introduces an optimal clustering method for a design structure matrix (DSM) with constraints selection. In DSM clustering problems, constraints may conflict with one another, making it impossible to obtain a feasible solution, as illustrated in the figure. The proposed approach addresses such cases by simultaneously determining an optimal modular design that maximizes the modularity metric, (Q), while minimizing constraint violations according to their priorities and weights. A case study of an automobile suspension system demonstrates the effectiveness of the method in achieving high-quality clustering while resolving constraint conflicts."
+  detail_image: "/assets/img/overview-choi-2026-optimal.png"
 
 # ==========================================
 # Papers Written in Korean
