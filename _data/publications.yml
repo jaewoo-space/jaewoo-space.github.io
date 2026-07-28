@@ -1,6 +1,14 @@
 # ==========================================
 # Journal Articles
 # ==========================================
+- title: "Families of Two-Impulse Optimal Rendezvous Transfers Between Elliptic Orbits"
+  authors: "Park, B., Howell, K. C., <u><b>Kim, J.</b></u>, and Ahn, J."
+  venue: "accepted by The Journal of the Astronautical Sciences"
+  type: "journal"
+  link: "https://doi.org/10.48550/arXiv.2603.11538"
+  summary: "This paper revisits the classical fuel-optimal two-impulse rendezvous problem between Keplerian orbits from a family-based perspective. The framework applies selected first-order optimality conditions and numerical continuation to connect isolated optima into continuous one-parameter families. These families are classified using Hessian-based criteria and Primer Vector Theory and projected onto porkchop plots. Case studies show how locally optimal branches emerge, merge, and disappear with orbital geometry, providing a global map of solution robustness and near-optimal alternatives."
+  detail_image: "/assets/img/overview-park-2026-families.png"
+
 - title: "On-Orbit Servicing-Integrated Maintenance Strategy for Satellite Constellation"
   authors: "<b>Kim, J.</b>, Sung, T., Hwang, W., and <u>Ahn, J.</u>"
   venue: "accepted by Journal of Spacecraft and Rockets"
@@ -44,14 +52,6 @@
   link: "https://doi.org/10.1007/s42405-024-00737-1"
   summary: "Conceptual design of launch vehicle involves multiple disciplines, including structures, aerodynamics, propulsion, flight control, and stage sizing. This paper focuses on the integrated optimization of trajectory and stage sizing. Conventional approaches often treat these tasks sequentially, which can increase computational complexity and yield suboptimal designs. The proposed framework minimizes lift-off mass while satisfying flight requirements, including limits on maximum dynamic pressure and impact points of separated parts. A case study demonstrates the advantage of the integrated framework over the conventional sequential optimization approach."
   detail_image: "/assets/img/overview-ko-2024-simultaneous.png"
-
-- title: "Families of Two-Impulse Optimal Rendezvous Transfers Between Elliptic Orbits"
-  authors: "Park, B., Howell, K. C., <u><b>Kim, J.</b></u>, and Ahn, J."
-  venue: "revised manuscript under review at The Journal of the Astronautical Sciences"
-  type: "journal"
-  link: "https://doi.org/10.48550/arXiv.2603.11538"
-  summary: "This paper revisits the classical fuel-optimal two-impulse rendezvous problem between Keplerian orbits from a family-based perspective. The framework applies selected first-order optimality conditions and numerical continuation to connect isolated optima into continuous one-parameter families. These families are classified using Hessian-based criteria and Primer Vector Theory and projected onto porkchop plots. Case studies show how locally optimal branches emerge, merge, and disappear with orbital geometry, providing a global map of solution robustness and near-optimal alternatives."
-  detail_image: "/assets/img/overview-park-2026-families.png"
 
 - title: "Korean Space Collision Risk Analysis Software Based on 3D-Cell Model"
   authors: "<b>Kim, J.</b>, Song, M., Lee, J., Yu, J., Choi, E. J., Kam, H., Jo, J., and <u>Ahn, J.</u>"
