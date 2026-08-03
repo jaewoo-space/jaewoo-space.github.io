@@ -11,9 +11,9 @@
 
 - title: "On-Orbit Servicing-Integrated Maintenance Strategy for Satellite Constellation"
   authors: "<b>Kim, J.</b>, Sung, T., Hwang, W., and <u>Ahn, J.</u>"
-  venue: "accepted by Journal of Spacecraft and Rockets"
+  venue: "Journal of Spacecraft and Rockets (Online Published)"
   type: "journal"
-  link: "https://doi.org/10.48550/arXiv.2512.18985"
+  link: "https://doi.org/10.2514/1.A36684"
   summary: "This paper proposes an on-orbit servicing (OOS)-integrated maintenance strategy for satellite constellations that combines new satellite deployment with OOS-based recovery of failed satellites. An inventory management model with a parametric replenishment policy is developed to evaluate maintenance performance and formulate the operator-provider interaction as a bi-objective optimization problem: the operator minimizes cost while maintaining service levels, whereas the OOS provider maximizes profit through pricing and performance decisions. A real-world-scale case study shows that the Pareto frontier is driven primarily by provider pricing, while the operator's maintenance strategy remains nearly invariant. Among OOS-related parameters, the recoverable failure fraction has the strongest structural effect."
   detail_image: "/assets/img/overview-kim-2026-orbit.png"
 
