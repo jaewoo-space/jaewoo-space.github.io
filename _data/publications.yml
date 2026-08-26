@@ -3,9 +3,10 @@
 # ==========================================
 - title: "Families of Two-Impulse Optimal Rendezvous Transfers Between Elliptic Orbits"
   authors: "Park, B., Howell, K. C., <u><b>Kim, J.</b></u>, and Ahn, J."
-  venue: "accepted by The Journal of the Astronautical Sciences"
+  venue: "The Journal of the Astronautical Sciences, Vol. 73, No. 5"
+  year: 2026
   type: "journal"
-  link: "https://doi.org/10.48550/arXiv.2603.11538"
+  link: "https://doi.org/10.1007/s40295-026-00624-9"
   summary: "This paper revisits the classical fuel-optimal two-impulse rendezvous problem between Keplerian orbits from a family-based perspective. The framework applies selected first-order optimality conditions and numerical continuation to connect isolated optima into continuous one-parameter families. These families are classified using Hessian-based criteria and Primer Vector Theory and projected onto porkchop plots. Case studies show how locally optimal branches emerge, merge, and disappear with orbital geometry, providing a global map of solution robustness and near-optimal alternatives."
   detail_image: "/assets/img/overview-park-2026-families.png"
 
@@ -53,10 +54,11 @@
   summary: "Conceptual design of launch vehicle involves multiple disciplines, including structures, aerodynamics, propulsion, flight control, and stage sizing. This paper focuses on the integrated optimization of trajectory and stage sizing. Conventional approaches often treat these tasks sequentially, which can increase computational complexity and yield suboptimal designs. The proposed framework minimizes lift-off mass while satisfying flight requirements, including limits on maximum dynamic pressure and impact points of separated parts. A case study demonstrates the advantage of the integrated framework over the conventional sequential optimization approach."
   detail_image: "/assets/img/overview-ko-2024-simultaneous.png"
 
-- title: "Korean Space Collision Risk Analysis Software Based on 3D-Cell Model"
+- title: "Korean Space Collision Environment Assessment Framework Based on 3D-Cell Model"
   authors: "<b>Kim, J.</b>, Song, M., Lee, J., Yu, J., Choi, E. J., Kam, H., Jo, J., and <u>Ahn, J.</u>"
-  venue: "under revision at International Journal of Aeronautical and Space Sciences"
+  venue: "revised manuscript submitted at International Journal of Aeronautical and Space Sciences"
   type: "journal"
+  link: "https://doi.org/10.48550/arXiv.2608.22877"
   summary: "Space situational awareness (SSA) capabilities are becoming increasingly critical as access to space expands and space activities intensify. SSA supports operations, planning, and strategic and political decision-making worldwide. This paper introduces the baseline model and implementation details of the developed software. It also presents the results and implications of numerical studies focused on low Earth orbit. These studies analyze the effects of key input parameters and investigate the evolution of the space collision environment, providing insights for parameter selection and demonstrating the applicability of the developed software."
   detail_image: "/assets/img/overview-kim-2026-korean.png"
 
@@ -135,6 +137,7 @@
   venue: "27th Advanced Maui Optical and Space Surveillance Technologies (AMOS) Conference, Maui, Hawaii, US"
   year: 2026
   type: "conference"
+  link: "https://www.researchgate.net/profile/Jaewoo-Kim-19/publication/412951863_Inclination-aware_2D_source-sink_modeling_for_long-term_projection_of_the_LEO_collision_environment/links/6a87a5c53a7ce868e72eb864/Inclination-aware-2D-source-sink-modeling-for-long-term-projection-of-the-LEO-collision-environment.pdf"
   note: "to appear"
 
 - title: "Decision Support for Space Debris Remediation Enterprises via Two-Stage System Optimization under Various Future Scenarios"
