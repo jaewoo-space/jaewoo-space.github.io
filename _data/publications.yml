@@ -183,6 +183,27 @@
 # ==========================================
 # Conference Proceedings Written in Korean
 # ==========================================
+- title: "3D-Cell Model Analysis and Application for Korean Space Collision Environment Assessment Framework"
+  authors: "Song, M., Lee, J., <b>Kim, J.</b>, Choi, E. J., Choi, J., Yu, J., Jo, J., Kam, H., and Ahn, J."
+  venue: "Korean Space Science Society (KSSS) Fall Conference, Jeju, Korea"
+  year: 2026
+  type: "conference_korean"
+  note: "to appear"
+
+- title: "2D Evolutionary Model for Assessment of Future LEO Collision Environment"
+  authors: "<b>Kim, J.</b>, Song, M., Choi, E.-J., Choi, J., Yu, J., Jo, J. H., Kam, H., and Ahn, J."
+  venue: "Korean Space Science Society (KSSS) Fall Conference, Jeju, Korea"
+  year: 2026
+  type: "conference_korean"
+  note: "to appear"
+
+- title: "Optimal Space-Ground Sensor Tasking for Cooperative Observation of Space Objects"
+  authors: "<b>Kim, J.</b>, Song, M., Choi, E.-J., Choi, J., Yu, J., Jo, J. H., Kam, H., and Ahn, J."
+  venue: "Korean Space Science Society (KSSS) Fall Conference, Jeju, Korea"
+  year: 2026
+  type: "conference_korean"
+  note: "to appear"
+
 - title: "A Family-Based Framework for Two-Impulse Optimal Rendezvous Transfers"
   authors: "<b>Kim, J.</b>, Ahn, J., Park, B., and Howell, K. C."
   venue: "Korean Society for Aeronautical and Space Sciences (KSAS) Space Conference, Busan, Korea"
