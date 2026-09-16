@@ -1,6 +1,14 @@
 # ==========================================
 # Journal Articles
 # ==========================================
+- title: "Korean Space Collision Environment Assessment Framework Based on 3D-Cell Model"
+  authors: "<b>Kim, J.</b>, Song, M., Lee, J., Yu, J., Choi, E. J., Kam, H., Jo, J., and <u>Ahn, J.</u>"
+  venue: "accepted by International Journal of Aeronautical and Space Sciences"
+  type: "journal"
+  link: "https://doi.org/10.48550/arXiv.2608.22877"
+  summary: "Space situational awareness (SSA) capabilities are becoming increasingly critical as access to space expands and space activities intensify. SSA supports operations, planning, and strategic and political decision-making worldwide. This paper introduces the baseline model and implementation details of the developed software. It also presents the results and implications of numerical studies focused on low Earth orbit. These studies analyze the effects of key input parameters and investigate the evolution of the space collision environment, providing insights for parameter selection and demonstrating the applicability of the developed software."
+  detail_image: "/assets/img/overview-kim-2026-korean.png"
+
 - title: "Families of Two-Impulse Optimal Rendezvous Transfers Between Elliptic Orbits"
   authors: "Park, B., Howell, K. C., <u><b>Kim, J.</b></u>, and Ahn, J."
   venue: "The Journal of the Astronautical Sciences, Vol. 73, No. 5"
@@ -53,14 +61,6 @@
   link: "https://doi.org/10.1007/s42405-024-00737-1"
   summary: "Conceptual design of launch vehicle involves multiple disciplines, including structures, aerodynamics, propulsion, flight control, and stage sizing. This paper focuses on the integrated optimization of trajectory and stage sizing. Conventional approaches often treat these tasks sequentially, which can increase computational complexity and yield suboptimal designs. The proposed framework minimizes lift-off mass while satisfying flight requirements, including limits on maximum dynamic pressure and impact points of separated parts. A case study demonstrates the advantage of the integrated framework over the conventional sequential optimization approach."
   detail_image: "/assets/img/overview-ko-2024-simultaneous.png"
-
-- title: "Korean Space Collision Environment Assessment Framework Based on 3D-Cell Model"
-  authors: "<b>Kim, J.</b>, Song, M., Lee, J., Yu, J., Choi, E. J., Kam, H., Jo, J., and <u>Ahn, J.</u>"
-  venue: "revised manuscript submitted at International Journal of Aeronautical and Space Sciences"
-  type: "journal"
-  link: "https://doi.org/10.48550/arXiv.2608.22877"
-  summary: "Space situational awareness (SSA) capabilities are becoming increasingly critical as access to space expands and space activities intensify. SSA supports operations, planning, and strategic and political decision-making worldwide. This paper introduces the baseline model and implementation details of the developed software. It also presents the results and implications of numerical studies focused on low Earth orbit. These studies analyze the effects of key input parameters and investigate the evolution of the space collision environment, providing insights for parameter selection and demonstrating the applicability of the developed software."
-  detail_image: "/assets/img/overview-kim-2026-korean.png"
 
 - title: "Multi-Domain Matrix Framework for Human Resource Decision Support"
   authors: "Lee, D., <u><b>Kim, J.</b></u>, and Ahn, J."
@@ -183,6 +183,13 @@
 # ==========================================
 # Conference Proceedings Written in Korean
 # ==========================================
+- title: "Development of Integrated Framework for Collision Environment Assessment"
+  authors: "<b>Kim, J.</b>, Song, M., Ahn, J., Yu, J., Kam, H., Jo, J. H., Choi, J., and Choi, E.-J."
+  venue: "Korean Society for Aeronautical and Space Sciences (KSAS) Fall Conference, Jeongseon, Korea"
+  year: 2026
+  type: "conference_korean"
+  note: "to appear"
+
 - title: "3D-Cell Model Analysis and Application for Korean Space Collision Environment Assessment Framework"
   authors: "Song, M., Lee, J., <b>Kim, J.</b>, Choi, E. J., Choi, J., Yu, J., Jo, J., Kam, H., and Ahn, J."
   venue: "Korean Space Science Society (KSSS) Fall Conference, Jeju, Korea"
