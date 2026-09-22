@@ -125,6 +125,13 @@
 # ==========================================
 # Conference Proceedings
 # ==========================================
+- title: "Impact and Mitigation of Launch Failures on Satellite Constellation Maintenance"
+  authors: "<b>Kim, J.</b>, Sung, T., Hwang, W., and Ahn, J."
+  venue: "AIAA SciTech Forum, Orlando, Florida, US"
+  year: 2027
+  type: "conference"
+  note: "to appear"
+
 - title: "A Multi-Trip Time-Dependent Traveling Salesman Problem for Space Logistics"
   authors: "Lee, S., <b>Kim, J.</b>, and Ahn, J."
   venue: "2026 INFORMS Annual Meeting, San Francisco, California, US"
@@ -138,14 +145,12 @@
   year: 2026
   type: "conference"
   link: "https://www.researchgate.net/profile/Jaewoo-Kim-19/publication/412951863_Inclination-aware_2D_source-sink_modeling_for_long-term_projection_of_the_LEO_collision_environment/links/6a87a5c53a7ce868e72eb864/Inclination-aware-2D-source-sink-modeling-for-long-term-projection-of-the-LEO-collision-environment.pdf"
-  note: "to appear"
 
 - title: "Decision Support for Space Debris Remediation Enterprises via Two-Stage System Optimization under Various Future Scenarios"
   authors: "Song, M., <b>Kim, J.</b>, and Ahn, J."
   venue: "27th Advanced Maui Optical and Space Surveillance Technologies (AMOS) Conference, Maui, Hawaii, US"
   year: 2026
   type: "conference"
-  note: "to appear"
 
 - title: "Flexibility-Aware Assessment and Optimization of System Architectural Decision for Large Space Systems Considering On-Orbit Servicing"
   authors: "<b>Kim, J.</b>, Choi, J., and Ahn, J."
