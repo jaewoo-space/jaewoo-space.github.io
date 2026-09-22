@@ -31,7 +31,7 @@ title: Publications
         {% endfor %}
     </div>
 
-    <h2 id="work-in-progress" class="category-header">Preprints & Work in Progress</h2>
+    <h2 id="work-in-progress" class="category-header">Work in Progress</h2>
     <div class="publication-list">
         {% assign preprints = site.data.publications | where: "type", "preprint" %}
         {% for pub in preprints %}
