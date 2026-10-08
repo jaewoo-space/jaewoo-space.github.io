@@ -10,9 +10,10 @@
 
 - title: "Korean Space Collision Environment Assessment Framework Based on 3D-Cell Model"
   authors: "<b>Kim, J.</b>, Song, M., Lee, J., Yu, J., Choi, E. J., Kam, H., Jo, J., and <u>Ahn, J.</u>"
-  venue: "accepted by International Journal of Aeronautical and Space Sciences"
+  venue: "International Journal of Aeronautical and Space Sciences"
+  year: 2026
   type: "journal"
-  link: "https://doi.org/10.48550/arXiv.2608.22877"
+  link: "https://doi.org/10.1007/s42405-026-01303-7"
   summary: "Space situational awareness (SSA) capabilities are becoming increasingly critical as access to space expands and space activities intensify. SSA supports operations, planning, and strategic and political decision-making worldwide. This paper introduces the baseline model and implementation details of the developed software. It also presents the results and implications of numerical studies focused on low Earth orbit. These studies analyze the effects of key input parameters and investigate the evolution of the space collision environment, providing insights for parameter selection and demonstrating the applicability of the developed software."
   detail_image: "/assets/img/overview-kim-2026-korean.png"
 
@@ -188,6 +189,13 @@
 # ==========================================
 # Conference Proceedings Written in Korean
 # ==========================================
+- title: "A Review of Modeling and Optimization Approaches for Time-Dependent Space Logistics Network"
+  authors: "Yi, G., <b>Kim, J.</b>, and Ahn, J."
+  venue: "Korean Society for Aeronautical and Space Sciences (KSAS) Fall Conference, Jeongseon, Korea"
+  year: 2026
+  type: "conference_korean"
+  note: "to appear"
+
 - title: "Development of Integrated Framework for Collision Environment Assessment"
   authors: "<b>Kim, J.</b>, Song, M., Ahn, J., Yu, J., Kam, H., Jo, J. H., Choi, J., and Choi, E.-J."
   venue: "Korean Society for Aeronautical and Space Sciences (KSAS) Fall Conference, Jeongseon, Korea"
