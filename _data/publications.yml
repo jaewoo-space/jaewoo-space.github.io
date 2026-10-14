@@ -189,6 +189,13 @@
 # ==========================================
 # Conference Proceedings Written in Korean
 # ==========================================
+- title: "Progress in Korean Space Collision Environment Models"
+  authors: "<b>Kim, J.</b>, Song, M., Yu, J., Kam, H., Jo, J. H., Choi, E. J., Choi, J., and Ahn, J."
+  venue: "Korean Space Science Society (KSSS) Fall Conference, Seoul, Korea"
+  year: 2026
+  type: "conference_korean"
+  note: "to appear"
+
 - title: "A Review of Modeling and Optimization Approaches for Time-Dependent Space Logistics Network"
   authors: "Yi, G., <b>Kim, J.</b>, and Ahn, J."
   venue: "Korean Society for Aeronautical and Space Sciences (KSAS) Fall Conference, Jeongseon, Korea"
