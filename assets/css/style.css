@@ -239,6 +239,16 @@ hr {
     margin-bottom: 4px;
 }
 
+.pub-title-numbered {
+    display: grid;
+    grid-template-columns: max-content minmax(0, 1fr);
+    column-gap: 0.45em;
+}
+
+.pub-number {
+    font-variant-numeric: tabular-nums;
+}
+
 .pub-authors {
     color: #444;
     font-size: 1rem;

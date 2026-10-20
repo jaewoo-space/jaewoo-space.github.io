@@ -19,7 +19,7 @@ title: Publications
     <div class="publication-list">
         {% assign journals = site.data.publications | where: "type", "journal" %}
         {% for pub in journals %}
-            {% include publication_item.html pub=pub %}
+            {% include publication_item.html pub=pub number=forloop.index %}
         {% endfor %}
     </div>
 
@@ -27,7 +27,8 @@ title: Publications
     <div class="publication-list">
         {% assign korean_journals = site.data.publications | where: "type", "journal_korean" %}
         {% for pub in korean_journals %}
-            {% include publication_item.html pub=pub %}
+            {% assign publication_number = journals.size | plus: forloop.index %}
+            {% include publication_item.html pub=pub number=publication_number %}
         {% endfor %}
     </div>
 
@@ -43,7 +44,7 @@ title: Publications
     <div class="publication-list">
         {% assign conferences = site.data.publications | where: "type", "conference" %}
         {% for pub in conferences %}
-            {% include publication_item.html pub=pub %}
+            {% include publication_item.html pub=pub number=forloop.index %}
         {% endfor %}
     </div>
 
@@ -51,7 +52,8 @@ title: Publications
     <div class="publication-list">
         {% assign korean_conferences = site.data.publications | where: "type", "conference_korean" %}
         {% for pub in korean_conferences %}
-            {% include publication_item.html pub=pub %}
+            {% assign publication_number = conferences.size | plus: forloop.index %}
+            {% include publication_item.html pub=pub number=publication_number %}
         {% endfor %}
     </div>
 </div>

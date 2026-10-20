@@ -1,6 +1,7 @@
 <div class="publication-item" id="pub-{{ pub.title | slugify }}">
-    <div class="pub-title">
-        {{ pub.title }}
+    <div class="pub-title{% if include.number %} pub-title-numbered{% endif %}">
+        {% if include.number %}<span class="pub-number">{{ include.number }}.</span>{% endif %}
+        <span>{{ pub.title }}</span>
     </div>
     
     <div class="pub-authors">
