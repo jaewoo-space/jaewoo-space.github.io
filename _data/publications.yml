@@ -115,7 +115,7 @@
   type: "preprint"
 
 - title: "Reinforcement Learning-Based Architecture Design Optimization of Large Space Systems with On-Orbit Servicing"
-  authors: "<b>Kim, J.</b>, Ahn, J., and <u>Choi, J.</u>"
+  authors: "<b>Kim, J.</b>, <u>Choi, J.</u>, and Ahn, J."
   venue: "in preparation"
   year: 2026
   type: "preprint"
@@ -124,6 +124,11 @@
   authors: "<b>Kim, J.</b>, Song, M., Yu, J., Choi, E. J., Kam, H., Jo, J., and <u>Ahn, J.</u>"
   venue: "in preparation"
   year: 2026
+  type: "preprint"
+
+- title: "Optimal Active Debris Removal Mission Planning with a Refuelable Servicer"
+  authors: "Lee, S., <b>Kim, J.</b>, and <u>Ahn, J.</u>"
+  venue: "in preparation"
   type: "preprint"
 
 # ==========================================
