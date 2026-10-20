@@ -78,6 +78,15 @@
   summary: "This paper presents an actionable human resource (HR) decision-support framework for small firms and startups based on a multi-domain matrix (MDM). The framework addresses complex interdependencies among members, skills, and projects by formulating startup HR management as a multi-domain structural modeling problem. It provides qualitative guidelines and quantitative metrics for diagnosing HR states and supporting decisions on workload redistribution, hiring, and capability development. A case study of an early-stage technology startup demonstrates that the framework identifies workload imbalances, detects unsustainable member workloads, and informs hiring decisions while supporting continuous HR diagnosis after organizational changes."
   detail_image: "/assets/img/overview-lee-2026-multi.png"
 
+- title: "Constrained Modularity Maximization in Complex Networks via Branch-and-Price"
+  authors: "<b>Kim, J.</b>, <u>Lee, S.</u>, Ahn, J., Choi, E., and Kim, J.-H."
+  venue: "submitted to Physical Review E"
+  type: "journal"
+  link: "https://doi.org/10.48550/arXiv.2610.26562"
+  summary: "This paper develops a modularity-maximization framework for community detection in complex networks subject to constraints on community count, must-link and cannot-link relations, and resource requirements. The framework combines a constrained Louvain heuristic, column generation with graph-partitioning-based pricing, and exact branch-and-price algorithms. A sparse quadratic pricing formulation reduces the computational burden of exact optimization, while independent upper bounds support solution-quality assessment when exact optimization cannot be completed. Experiments on benchmark networks demonstrate how these methods balance computational time and optimality guarantees, with branch-and-price using sparse quadratic pricing solving 29 of 30 constrained instances to global optimality within a one-hour time limit."
+  detail_image: "/assets/img/overview-kim-2026-constrained.png"
+  detail_image_alt: "Optimal partition into 20 communities with must-link and cannot-link relations and resource values for each community."
+
 # ==========================================
 # Papers Written in Korean
 # ==========================================
@@ -101,12 +110,6 @@
 
 - title: "Managing Module Boundaries Across the OEM-Supplier Interface: A Bi-Objective DSM Clustering Approach"
   authors: "<b>Kim, J.</b>, Choi, E., Suh, E. S., Kim, J.-H., and <u>Ahn, J.</u>"
-  venue: "in preparation"
-  year: 2026
-  type: "preprint"
-
-- title: "Constrained Modularity Maximization in Complex Networks via Branch-and-Price"
-  authors: "<b>Kim, J.</b>, <u>Lee, S.</u>, Ahn, J., Choi, E., and Kim, J.-H."
   venue: "in preparation"
   year: 2026
   type: "preprint"
