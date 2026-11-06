@@ -146,7 +146,6 @@
   venue: "2026 INFORMS Annual Meeting, San Francisco, California, US"
   year: 2026
   type: "conference"
-  note: "to appear"
 
 - title: "Inclination-Aware 2D Source-Sink Modeling for Long-Term Projection of the LEO Collision Environment"
   authors: "<b>Kim, J.</b>, Song, M., Lee, J., Yu, J., Kam, H., Choi, E.-J., Choi, J., Jo, J. H., and Ahn, J."
@@ -198,13 +197,6 @@
 # ==========================================
 # Conference Proceedings Written in Korean
 # ==========================================
-- title: "Progress in Korean Space Collision Environment Models"
-  authors: "<b>Kim, J.</b>, Song, M., Yu, J., Kam, H., Jo, J. H., Choi, E. J., Choi, J., and Ahn, J."
-  venue: "Korean Space Science Society (KSSS) Fall Conference, Seoul, Korea"
-  year: 2026
-  type: "conference_korean"
-  note: "to appear"
-
 - title: "A Review of Modeling and Optimization Approaches for Time-Dependent Space Logistics Network"
   authors: "Yi, G., <b>Kim, J.</b>, and Ahn, J."
   venue: "Korean Society for Aeronautical and Space Sciences (KSAS) Fall Conference, Jeongseon, Korea"
@@ -219,33 +211,37 @@
   type: "conference_korean"
   note: "to appear"
 
+- title: "Progress in Korean Space Collision Environment Models"
+  authors: "<b>Kim, J.</b>, Song, M., Yu, J., Kam, H., Jo, J. H., Choi, E. J., Choi, J., and Ahn, J."
+  venue: "Korean Academy of Space Security (KASS) Fall Conference"
+  year: 2026
+  type: "conference_korean"
+  note: "Best Oral Presentation"
+
 - title: "Constrained Modularity Maximization in Complex Networks"
   authors: "Lee, S., <b>Kim, J.</b>, Ahn, J., and Kim, J.-H."
   venue: "Korean Society for Industrial and Applied Mathematics (KSIAM) Fall Conference, Jeju, Korea"
   year: 2026
   type: "conference_korean"
-  note: "to appear"
 
 - title: "3D-Cell Model Analysis and Application for Korean Space Collision Environment Assessment Framework"
   authors: "Song, M., Lee, J., <b>Kim, J.</b>, Choi, E. J., Choi, J., Yu, J., Jo, J., Kam, H., and Ahn, J."
   venue: "Korean Space Science Society (KSSS) Fall Conference, Jeju, Korea"
   year: 2026
   type: "conference_korean"
-  note: "to appear"
 
 - title: "2D Evolutionary Model for Assessment of Future LEO Collision Environment"
   authors: "<b>Kim, J.</b>, Song, M., Choi, E.-J., Choi, J., Yu, J., Jo, J. H., Kam, H., and Ahn, J."
   venue: "Korean Space Science Society (KSSS) Fall Conference, Jeju, Korea"
   year: 2026
   type: "conference_korean"
-  note: "to appear"
 
 - title: "Optimal Space-Ground Sensor Tasking for Cooperative Observation of Space Objects"
   authors: "<b>Kim, J.</b>, Song, M., Choi, E.-J., Choi, J., Yu, J., Jo, J. H., Kam, H., and Ahn, J."
   venue: "Korean Space Science Society (KSSS) Fall Conference, Jeju, Korea"
   year: 2026
   type: "conference_korean"
-  note: "to appear"
+  note: "Best Oral Presentation"
 
 - title: "A Family-Based Framework for Two-Impulse Optimal Rendezvous Transfers"
   authors: "<b>Kim, J.</b>, Ahn, J., Park, B., and Howell, K. C."
@@ -318,6 +314,7 @@
   venue: "Korean Space Science Society (KSSS) Spring Conference, Seoul, Korea"
   year: 2025
   type: "conference_korean"
+  note: "Best Oral Presentation"
 
 - title: "Application of Space Logistics: Maintenance Strategy of Satellite Mega-Constellation"
   authors: "<b>Kim, J.</b>, Sung, T., and Ahn, J."
