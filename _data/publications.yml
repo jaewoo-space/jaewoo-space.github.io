@@ -72,7 +72,7 @@
 
 - title: "Multi-Domain Matrix Framework for Human Resource Decision Support"
   authors: "Lee, D., <u><b>Kim, J.</b></u>, and Ahn, J."
-  venue: "under review at Systems Engineering"
+  venue: "major revision at Systems Engineering"
   type: "journal"
   link: "https://doi.org/10.48550/arXiv.2607.01613"
   summary: "This paper presents an actionable human resource (HR) decision-support framework for small firms and startups based on a multi-domain matrix (MDM). The framework addresses complex interdependencies among members, skills, and projects by formulating startup HR management as a multi-domain structural modeling problem. It provides qualitative guidelines and quantitative metrics for diagnosing HR states and supporting decisions on workload redistribution, hiring, and capability development. A case study of an early-stage technology startup demonstrates that the framework identifies workload imbalances, detects unsustainable member workloads, and informs hiring decisions while supporting continuous HR diagnosis after organizational changes."
@@ -202,14 +202,12 @@
   venue: "Korean Society for Aeronautical and Space Sciences (KSAS) Fall Conference, Jeongseon, Korea"
   year: 2026
   type: "conference_korean"
-  note: "to appear"
 
 - title: "Development of Integrated Framework for Collision Environment Assessment"
   authors: "<b>Kim, J.</b>, Song, M., Ahn, J., Yu, J., Kam, H., Jo, J. H., Choi, J., and Choi, E.-J."
   venue: "Korean Society for Aeronautical and Space Sciences (KSAS) Fall Conference, Jeongseon, Korea"
   year: 2026
   type: "conference_korean"
-  note: "to appear"
 
 - title: "Progress in Korean Space Collision Environment Models"
   authors: "<b>Kim, J.</b>, Song, M., Yu, J., Kam, H., Jo, J. H., Choi, E. J., Choi, J., and Ahn, J."
